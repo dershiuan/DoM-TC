@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <string name="presence_default">開始遊戲</string>
+  <string name="presence_tutorial">開始教學模式</string>
+  <string name="presence_continental_dawn">遊玩大陸黎明</string>
+  <string name="presence_the_northlands">遊玩北境</string>
+  <string name="presence_ancient_warriors">遊玩古代勇士</string>
+  <string name="presence_challenge">遊玩挑戰場景</string>
+  <string name="presence_community_game">遊玩社群場景</string>
+  <string name="presence_menus">選單</string>
+</strings>

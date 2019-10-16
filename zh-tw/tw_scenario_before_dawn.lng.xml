@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="scenario_before_dawn">黎明前夕</string>
+	<string name="scenario_before_dawn_subtitle">極難</string>
+	<string name="scenario_before_dawn_description">建立舊石器時式的村莊。只有少數的科技可用。</string>
+	<string name="scenario_before_dawn_context">大約 22,000 年前，最後一個冰河時期。大地大多被冰覆蓋，生活非常的困難。</string>
+	
+	<string name="goal_before_dawn_main">人口到達 50</string>	
+	
+	<string name="before_dawn_well_done">做的好</string>	
+	<string name="before_dawn_completed">你在此場景中存活了下來</string>		
+</strings>

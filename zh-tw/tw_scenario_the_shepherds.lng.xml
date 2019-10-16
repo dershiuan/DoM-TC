@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="scenario_the_shepherds">畜牧</string>
+	<string name="scenario_the_shepherds_subtitle">困難</string>
+	<string name="scenario_the_shepherds_description">
+飼養屬於你的牛群：
+• 達到 50 動物人口
+• 建造 4 馬棚
+	</string>
+	<string name="scenario_the_shepherds_context">
+你的村莊在附近狩獵了幾年，但現在他們的人口大量減少，現在你需要馴化並保護你的牛群。
+	</string>
+	
+	<string name="goal_the_shepherds_herd">到達 50 動物人口</string>
+	<string name="goal_the_shepherds_stables">建造 4 馬棚</string>
+
+	<string name="the_shepherds_well_done">做得好</string>	
+	<string name="the_shepherds_completed">你現在能在此環境存活。</string>		
+</strings>

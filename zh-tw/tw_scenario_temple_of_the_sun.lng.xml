@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="scenario_temple_of_the_sun">太陽神廟</string>
+	<string name="scenario_temple_of_the_sun_subtitle">挑戰</string>
+	<string name="scenario_temple_of_the_sun_description">
+建造偉大的太陽神廟：
+• 建造一個圓石陣。
+• 在它周圍建造 4 個石柱。
+• 在 Morkar 的一生中完成它。
+	</string>
+	<string name="scenario_temple_of_the_sun_context">
+偉大的薩滿 Morkar 已經下令建造一個巨石陣來取悅太陽神，以期在未來的歲月中它會保佑我們食物豐收。
+	</string>
+	
+	<string name="goal_temple_of_the_sun_stone_circle">建造一個圓石陣</string>	
+	<string name="goal_temple_of_the_sun_menhirs">在它周圍建造 4 個石柱</string>
+	<string name="goals_hint_temple_of_the_sun">Morkar 必須活著</string>
+	
+	<string name="temple_of_the_sun_well_done">做的好</string>
+	<string name="temple_of_the_sun_completed">神廟建造完成。</string>
+
+	<string name="temple_of_the_sun_failed_title">失敗</string>
+	<string name="temple_of_the_sun_failed_description">Morkar 死亡。</string>
+</strings>

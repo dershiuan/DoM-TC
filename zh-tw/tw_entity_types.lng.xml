@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<!-- 
+	Important: These are the names of all the entities in the game, they also get mentioned in other places in the game, 
+	it is very important that these get translated in the same way in all places 
+	-->
+	
+	<!-- Humans -->
+	<string name="human_primitive_human">原始人類</string>
+
+	<!-- Animals. These are used for young/adult/old and male/female animals, try to find a word that is generic enough in the language -->
+	<string name="animal_bear">熊</string>
+	<string name="animal_cave_bear">洞穴熊</string>
+	<string name="animal_deer">鹿</string>
+	<string name="animal_megaloceros">大角鹿</string>
+	<string name="animal_reindeer">馴鹿</string>
+	<string name="animal_wolf">狼</string>
+	<string name="animal_cave_lion">洞穴獅子</string>
+	<string name="animal_cave_hyena">洞穴鬣狗</string>
+	<string name="animal_dog">狗</string>
+	<string name="animal_mammoth">猛獁象</string>
+	<string name="animal_woolly_rhinoceros">長毛犀牛</string>
+	<string name="animal_elasmotherium">板齒犀</string>
+	<string name="animal_vulture">禿鷹</string>
+	<string name="animal_eagle">老鷹</string>
+	<string name="animal_dove">鴿子</string>
+	<string name="animal_ibex">野山羊</string>
+	<string name="animal_mouflon">摩弗倫綿羊</string>
+	<string name="animal_goat">山羊</string>
+	<string name="animal_sheep">綿羊</string>
+	<string name="animal_ancient_bison">古代野牛</string>
+	<string name="animal_bison">野牛</string>
+	<string name="animal_muskox">麝牛</string>
+	<string name="animal_pig">豬</string>
+	<string name="animal_boar">野豬</string>
+	<string name="animal_aurochs">野牛</string>
+	<string name="animal_cattle">牛</string>
+	<string name="animal_wild_horse">野馬</string>
+	<string name="animal_horse">馬</string>
+	<string name="animal_feral_horse">野馬</string>
+	<string name="animal_wild_donkey">野驢</string>
+	<string name="animal_donkey">驢</string>
+	
+	<!-- Structures -->
+	<string name="structure_tent">帳篷</string>
+	<string name="structure_hut">茅草屋</string>
+	<string name="structure_storage_tent">簡易倉庫</string>
+	<string name="structure_wood_pile">木材堆</string>
+	<string name="structure_haystack">乾草堆</string>
+	<string name="structure_rock_pile">石材堆</string>
+	<string name="structure_crafter">手作坊</string>
+	<string name="structure_food_dryer">曬肉架</string>
+	<string name="structure_skins_dryer">曬皮架</string>
+	<string name="structure_hearth">營火</string>
+	<string name="structure_tanner">皮革工坊</string>
+	<string name="structure_mortar">石臼</string>
+	<string name="structure_storage_hut">倉庫</string>
+	<string name="structure_roundhouse">石屋</string>
+	<string name="structure_warehouse">大倉庫</string>
+	<string name="structure_granary">糧倉</string>
+	<string name="structure_flint_mine">採石場</string>
+	<string name="structure_copper_mine">銅礦場</string>
+	<string name="structure_tin_mine">錫礦場</string>
+	<string name="structure_iron_mine">鐵礦場</string>
+	<string name="structure_deep_iron_mine">深層鐵礦場</string>
+	<string name="structure_workshop">工坊</string>
+	<string name="structure_metalsmith">金屬匠工坊</string>
+	<string name="structure_blacksmith">鐵匠工坊</string>
+	<string name="structure_charcoal_pit">炭窯</string>
+	<string name="structure_pit_furnace">熔爐</string>
+	<string name="structure_bloomery">鍛鐵爐</string>
+	<string name="structure_totem">圖騰</string>
+	<string name="structure_skull_pole">骷髏柱</string>
+	<string name="structure_banner">旗幟</string>
+	<string name="structure_stables">畜舍</string>
+	<string name="structure_weaver">織布工坊</string>
+	<string name="structure_outfitter">制衣工坊</string>
+	<string name="structure_well">水井</string>
+	<string name="structure_menhir">巨石柱</string>
+	<string name="structure_statue">雕像</string>
+	<string name="structure_dolmen">石棚墓</string>
+	<string name="structure_stone_circle">石陣</string>
+	<string name="structure_cairn">石山</string>
+	<string name="structure_palisade">柵欄</string>
+	<string name="structure_wall">牆</string>
+	<string name="structure_gate">大門</string>
+	<string name="structure_reinforced_gate">強化大門</string>
+	<string name="structure_watchtower">瞭望塔</string>
+	<string name="structure_guard_tower">防禦塔</string>
+	<string name="structure_brewery">釀酒廠</string>
+	<string name="structure_watermill">水車</string>
+	<string name="structure_oven">烤爐</string>
+	<string name="structure_bridge">橋</string>
+	<string name="structure_wooden_platform">木平台</string>
+	<string name="structure_reinforced_platform">強化平台</string>
+	
+
+	<!-- Resources -->
+	<string name="resource_wooden_spear">木矛</string>
+	<string name="resource_wooden_harpoon">木魚叉</string>
+	<string name="resource_bone_harpoon">骨魚叉</string>
+	<string name="resource_fishing_rod">釣竿</string>
+	<string name="resource_fish_trap">捕魚陷阱</string>
+	<string name="resource_bone_spear">骨矛</string>
+	<string name="resource_bone_knife">骨刀</string>
+	<string name="resource_bone_sickle">骨鐮刀</string>
+	<string name="resource_flint_spear">石矛</string>
+	<string name="resource_biface">手斧</string>
+	<string name="resource_flint_axe">石斧</string>
+	<string name="resource_flint_pick">石鎬</string>
+	<string name="resource_flint">燧石</string>
+	<string name="resource_sticks">樹枝</string>
+	<string name="resource_berries">漿果</string>
+	<string name="resource_fruit">水果</string>
+	<string name="resource_nuts">堅果</string>
+	<string name="resource_raw_skin">生皮</string>
+	<string name="resource_raw_meat">生肉</string>
+	<string name="resource_bone">骨頭</string>
+	<string name="resource_cured_meat">醃肉</string>
+	<string name="resource_dry_skin">毛皮</string>
+	<string name="resource_leather">皮革</string>
+	<string name="resource_raw_fish">生魚</string>
+	<string name="resource_dry_fish">魚乾</string>
+	<string name="resource_log">原木</string>
+	<string name="resource_grain">穀物</string>
+	<string name="resource_flour">麵粉</string>
+	<string name="resource_bread">麵包</string>
+	<string name="resource_waterskin">水袋</string>
+	<string name="resource_stone">石頭</string>
+	<string name="resource_charcoal">木炭</string>
+	<string name="resource_copper_ore">銅礦</string>
+	<string name="resource_tin_ore">錫礦</string>
+	<string name="resource_iron_ore">鐵礦</string>
+	<string name="resource_copper">銅</string>
+	<string name="resource_bronze">青銅</string>
+	<string name="resource_iron">鐵</string>
+	<string name="resource_steel">鋼</string>
+	<string name="resource_bow">弓</string>
+	<string name="resource_composite_bow">複合弓</string>
+	<string name="resource_straw">稻草</string>
+	<string name="resource_mud">泥土</string>
+	<string name="resource_sling">彈弓</string>
+	<string name="resource_tannin">丹寧</string>
+	<string name="resource_copper_spear">銅矛</string>
+	<string name="resource_copper_axe">銅斧</string>
+	<string name="resource_bronze_spear">青銅矛</string>
+	<string name="resource_bronze_knife">青銅刀</string>
+	<string name="resource_bronze_axe">青銅斧</string>
+	<string name="resource_iron_spear">鐵矛</string>
+	<string name="resource_iron_knife">鐵刀</string>
+	<string name="resource_iron_axe">鐵斧</string>
+	<string name="resource_steel_spear">鋼矛</string>
+	<string name="resource_steel_knife">鋼刀</string>
+	<string name="resource_steel_axe">鋼斧</string>
+	<string name="resource_bronze_sword">青銅劍</string>
+	<string name="resource_iron_sword">鐵劍</string>
+	<string name="resource_flint_knife">石刀</string>
+	<string name="resource_copper_knife">銅刀</string>
+	<string name="resource_steel_sword">鋼劍</string>
+	<string name="resource_skins_outfit">皮大衣</string>
+	<string name="resource_leather_outfit">皮短衣</string>
+	<string name="resource_wool_outfit">羊毛衣</string>
+	<string name="resource_linen_outfit">亞麻衣</string>
+	<string name="resource_steel_pick">鋼鎬</string>
+	<string name="resource_copper_pick">銅鎬</string>
+	<string name="resource_bronze_pick">青銅鎬</string>
+	<string name="resource_iron_pick">鐵鎬</string>
+	<string name="resource_linen">亞麻</string>
+	<string name="resource_linen_cloth">亞麻布</string>
+	<string name="resource_pulses">豆類</string>
+	<string name="resource_steel_sickle">鋼鐮刀</string>
+	<string name="resource_copper_sickle">銅鐮刀</string>
+	<string name="resource_bronze_sickle">青銅鐮刀</string>
+	<string name="resource_iron_sickle">鐵鐮刀</string>
+	<string name="resource_flint_sickle">石鐮刀</string>
+	<string name="resource_round_shield">圓盾</string>
+	<string name="resource_oval_shield">橢圓盾</string>
+	<string name="resource_milk">奶</string>
+	<string name="resource_water">水</string>
+	<string name="resource_beer">啤酒</string>
+	<string name="resource_wool">羊毛</string>
+	<string name="resource_wool_cloth">羊毛布</string>
+	<string name="resource_megalith">巨石</string>
+
+	<!-- Techs -->
+	<string name="tech_bone_tools">骨製工具</string>
+	<string name="tech_composite_tools">複合工具</string>
+	<string name="tech_thatching">茅草屋頂</string>
+	<string name="tech_masonry">石製物品</string>
+	<string name="tech_bone_polishing">骨材打磨</string>
+	<string name="tech_stone_polishing">石材打磨</string>
+	<string name="tech_copper_smelting">銅冶煉</string>
+	<string name="tech_bronze_smelting">青銅冶煉</string>
+	<string name="tech_iron_smelting">鐵冶煉</string>
+	<string name="tech_steelmaking">鋼製物品</string>
+	<string name="tech_underground_mining">礦坑</string>
+	<string name="tech_deep_mining">深層採礦</string>
+	<string name="tech_pottery">陶器</string>
+	<string name="tech_well_digging">挖井</string>
+	<string name="tech_food_drying">食物乾燥</string>
+	<string name="tech_grain_processing">穀物加工</string>
+	<string name="tech_pulse_processing">豆類加工</string>
+	<string name="tech_cereal_domestication">穀類種植</string>
+	<string name="tech_pulse_domestication">豆類種植</string>
+	<string name="tech_flax_domestication">亞麻種植</string>
+	<string name="tech_fruit_tree_domestication">果樹種植</string>
+	<string name="tech_rye_domestication">黑麥種植</string>
+	<string name="tech_dog_domestication">狗馴化</string>
+	<string name="tech_dog_training">狗訓練</string>
+	<string name="tech_sheep_domestication">綿羊馴化</string>
+	<string name="tech_goat_domestication">山羊馴化</string>
+	<string name="tech_pig_domestication">豬馴化</string>
+	<string name="tech_cattle_domestication">牛馴化</string>
+	<string name="tech_donkey_domestication">驢馴化</string>
+	<string name="tech_horse_domestication">馬馴化</string>
+	<string name="tech_tanning">皮革製作</string>
+	<string name="tech_weaving">編織工藝</string>
+	<string name="tech_netting">網子製作</string>
+	<string name="tech_sledgemaking">雪橇製作</string>
+	<string name="tech_stilting">橋梁</string>
+	<string name="tech_wheel">輪子</string>
+	<string name="tech_spirituality">宗教</string>
+	<string name="tech_megalithism">巨石陣</string>
+	<string name="tech_brewing">釀造</string>
+	<string name="tech_hydropower">水力</string>
+	<string name="tech_baking">烘焙</string>
+
+	<string name="tech_slingmaking">彈弓製作</string>
+	<string name="tech_archery">弓箭</string>
+	<string name="tech_fortifications">要塞</string>
+	<string name="tech_swordmaking">鑄劍</string>
+	<string name="tech_shieldmaking">盾片製作</string>
+	<string name="tech_composite_archery">複合弓</string>
+	<string name="tech_reinforced_fortifications">強化要塞</string>
+	
+	<string name="tech_stone_carving">石雕</string>
+	<string name="tech_complex_megalithism">複雜的巨石陣</string>
+
+	<!-- Transports -->
+	<string name="transport_sledge">雪橇</string>
+	<string name="transport_cart">拖車</string>
+	<string name="transport_rolling_megalith">巨石拖車</string>
+
+	<!-- Misc -->
+	<string name="bank">漁場</string>
+
+	<!-- Trees -->
+	<string name="tree_young_broadleaf">小樹</string>
+	<string name="tree_young_conifer">小樹</string>
+
+	<string name="tree_oak">橡樹</string>
+	<string name="tree_pine">松樹</string>
+	<string name="tree_beech">櫸木</string>
+	<string name="tree_birch">樺木</string>
+	<string name="tree_spruce">銀杉</string>
+	<string name="tree_fir">冷杉</string>
+	<string name="tree_service">花楸樹</string>
+	<string name="tree_cherry">櫻桃樹</string>
+	<string name="tree_chestnut">栗樹</string>
+	<string name="tree_pear">梨子樹</string>
+
+	<string name="tree_raspberry">樹莓</string>
+	<string name="tree_strawberry">草莓</string>
+	<string name="tree_blueberry">藍莓</string>
+	<string name="tree_blackberry">黑莓</string>
+
+	<string name="tree_einkorn">一粒小麥</string>
+	<string name="tree_emmer">二粒小麥</string>
+	<string name="tree_barley">大麥</string>
+	<string name="tree_rye">黑麥</string>
+
+	<string name="tree_lentils">扁豆</string>
+	<string name="tree_peas">豌豆</string>
+	<string name="tree_chickpeas">鷹嘴豆</string>
+	<string name="tree_bitter_vetch">野豌豆</string>
+
+	<string name="tree_flax">亞麻</string>
+
+</strings>

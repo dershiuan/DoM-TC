@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="help">幫助</string>
+	<string name="plants">植物</string>
+	<string name="topics">主題</string>
+	<string name="general">一般</string>
+	<string name="advanced_topics">高級主題</string>
+	<string name="wild_animals">野生動物</string>
+	<string name="see_also">也可以參考</string>
+	<string name="entities">物件</string>
+	<string name="requirements">需求</string>
+	<string name="loading_hints">提示</string>
+	<string name="help_upgrades">升級</string>
+	<string name="defense">防禦</string>
+	<string name="help_stats">統計</string>
+	<string name="help_cost">花費</string>
+	<string name="help_main">主題</string>
+	<string name="help_categories">類別</string>
+	<string name="help_recurrent_production">經常性生產</string>
+	<string name="help_related_resources">相關資源</string>
+	<string name="help_production">資源生產</string>
+	<string name="help_byproducts">資源生產</string>
+	<string name="help_domestic_variant">馴服變種</string>
+	<string name="help_wild_variant">野生變種</string>
+	<string name="help_domestication_tech">馴服科技</string>
+	<string name="help_crafted_from">由製作</string>
+	<string name="help_built_using">建造使用</string>	
+	<string name="help_produced_from">由製作</string>
+	<string name="help_created_entities">用來製作</string>
+	<string name="help_produced_resources">生產的資源</string>
+	<string name="help_input_resources">使用的資源</string>
+
+	<string name="hint_0">在夏季可以採集 (b)漿果(/b) 與 (b)水果(/b) 而在冬季可以選擇保存期較長的食物，例如： (b)醃肉(/b)、(b)魚乾(/b)、(b)穀物(/b) 等。</string>
+	<string name="hint_1">在遊戲初期，盡量 (b)避免(/b) 狩獵 (b)健康成年(/b) 的動物，它們難以殺死並會反擊。</string>
+	<string name="hint_2">使用 (b)工作區(/b) 配合 (b)資源上限(/b) 盡可能自動化運作你的村莊。</string>
+	<string name="hint_3">如果你沒有足夠的 (b)基礎設施(/b)，千萬別 (b)擴張(/b) 的太快。</string>
+	<string name="hint_4">在 (b)冬季(/b) (b)家畜(/b) 需要 (b)飼料(/b) 與 (b)水(/b)。如果你不能照顧好它們，請不要飼養太多。</string>
+	<string name="hint_5">在 (b)舊石器時代(/b) 是狩獵與採集社會，因為人口稀少 (b)很少(/b) 發生 (b)衝突(/b)。從 (b)新石器時代(/b) 開始，你需要認真準備開始 (b)戰鬥(/b)。</string>
+	<string name="hint_6">在 (b)早期(/b) 時代要到達 (b)大量人口(/b) 是 (b)困難(/b)。只有農業與其它科技才能維持大型村莊。</string>
+	<string name="hint_7">確保在 (b)冬季(/b) 來臨時，(b)防腐食物(/b) 的儲存量足夠，否則飢餓會成為很嚴重的問題。</string>
+	<string name="hint_8">派人到河川、湖泊或水井 (b)收集並儲存飲水(/b) 會比讓村民每次都自己離開村莊去喝水來的有效率。</string>
+	<string name="hint_9">你可以在畫面上方透過點擊 (b)+(/b) 按鈕來 (b)自訂(/b) 面板。</string>	
+	<string name="hint_10">可以同時按下 (b)移動(/b) 與 (b)旋轉(/b) 鍵來 (b)移動鏡頭(/b) 位置。</string>
+	<string name="hint_11">在 (b)標準(/b) 難度，侵略者的 (b)科技(/b) 會 (b)配合(/b) 你的時代，所以請小心別升級的太快。</string>
+	<string name="hint_12">在 (b)專家(/b) 難度，侵略者會以自己 (b)速度(/b) 提升 (b)科技(/b)，所以你沒有太多時間可浪費在準備時代的升級過程。</string>
+	<string name="hint_13">選取村民後 (b)右鍵(/b) 點擊 (b)建築(/b)，可以叫他們去 (b)休息(/b) 或 (b)避難(/b)。</string>
+	<string name="hint_14">當村民 (b)受傷(/b) 時有機會引發 (b)感染(/b)，並且致命。</string>
+	<string name="hint_15">在 (b)選取(/b) 村民後，(b)右鍵(/b) 點擊地面或物件可下達 (b)命令(/b) 給他們。</string>
+	<string name="hint_16">在選取村民後，(b)雙擊右鍵(/b) 下達 (b)衝刺(/b) (b)命令(/b) 叫村民趕到指定地點。</string>
+	<string name="hint_17">你可以按下 (b)F9(/b) 來 (b)快速存檔(/b)。</string>
+	<string name="hint_18">在植物上 (b)雙擊左鍵(/b)，快速選取附近所有相似的 (b)物件(/b)。</string>
+	<string name="hint_19">你可以按下 (camera_center_town_key) 鍵，將鏡頭移回村莊。</string>
+	<string name="hint_20">你可以按住 (hunter_selection_key) 與 (fighter_selection_key) 鍵，來選取有 (b)狩獵(/b) 或 (b)戰鬥(/b) 工具的村民。</string>
+	<string name="hint_21">你可以使用 (b)顯示資源(/b) 模式來高亮突顯 (b)工作區(/b)。</string>
+
+
+	<string name="help_main_title">Dawn of Man</string>
+	<string name="help_main_description">
+在 (b)Dawn of Man(/b) 中，你領導一群為了生存而奮鬥的古代人類。
+你必須 (b)狩獵(/b)、(b)採集(/b)、(b)製作工具(/b)、(b)戰鬥(/b)、研究新 (b)科技(/b) 並面對環境帶給你的挑戰。
+</string>
+
+  <!-- === Topics === -->
+
+	<string name="help_hunting_title">狩獵</string>
+	<string name="help_hunting_description">
+村民使用專門的工具來收獲 (b)食物(/b) 與 (b)資源(/b)。
+要開始狩獵，請先選取一隻動物，然後點擊 (b)狩獵按鈕(/b)。會基於獵物的難度與現有的工具數量，會派出獵人們前往狩獵。
+當開始獵殺時，動物會有不同的反應方式：一些會試著 (b)逃離(/b)，一個會保報它們的後代或試著 (b)反擊(/b)。
+選擇一個或多個成人，並右鍵點擊動物，可以有更多的控制細節。
+	</string>	
+	
+	<string name="help_farming_title">農業</string>
+	<string name="help_farming_description">
+農業使你可自動生產 (b)食物(/b)，並餵飽更多村民。
+你可以種植各種 (b)農作物(/b)，然後收獲並加工他們來餵飽村民。農作物通常在冬季或春季種植，在夏季或秋季採收。
+種植 (b)各種(/b) 農作物是很重要的，因為疾病會很容易地消滅單一種農作物。
+為了有最大的收獲量，請確保你有足夠的 (b)鐮刀(/b)。
+所有的農作物中，(b)穀類(/b) 是最重要的，它們不僅是 (b)穀物(/b) 來源，也是 (b)稻草(/b) 來源，可以當作建材與飼料。
+	</string>
+			
+	<string name="help_defense_title">防禦</string>
+	<string name="help_defense_description">
+生存的關鍵方法之一是保護村莊並對抗敵對 (b)動物(/b) 與 (b)侵略者(/b)
+在 (b)石器時代(/b)，主要威脅是野生動物和零星的侵略者。確保你有足夠的武器與人口來防禦村莊。
+在 (b)金屬器時代(/b) 事情變得更嚴峻，大量的侵略者會試著摧毀你的村莊。強烈的建議你建造 (b)要塞(/b) 與 (b)防禦設施(/b)。
+在任何時候，你可以在防禦面板發出 (b)警報(/b)，你的村民會跑回村莊，拿起最好的武器保護家園。
+	</string>	
+	
+	<string name="help_human_status_title">人類狀態</string>
+	<string name="help_human_status_description">
+人類有 (b)生命(/b)、(b)飢餓(/b)、(b)口渴(/b)、(b)疲勞(/b)、(b)體溫(/b)、(b)耐力(/b) 與 (b)心情(/b) 來反應他們目前的狀態。
+當有一種狀態處理低點，(b)警告圖示(/b) 會出現在那個人的頭上，並會高亮突現他們的問題。
+狀態變差的人會使效率降低，並可能致死。你需要隨時注意村民，並確保他們的需求得到滿足。
+	</string>	
+	
+	<string name="help_health_title">生命</string>	
+	<string name="help_health_description">
+表示一個人的實際生命狀態。如果太低這個人將會死亡。
+(b)生命(/b) 在正常情形下會慢慢恢復，除非其它狀態太低或是受到其它 (b)狀況(/b) 影響。
+    </string>	
+	
+	<string name="help_nutrition_title">飢餓</string>	
+	<string name="help_nutrition_description">
+表示一個人的飢餓狀態。如果太低，(b)生命(/b) 會開始減少，最後甚至死亡。
+(b)飢餓(/b) 在吃飽後會慢慢恢復，可以從各種來源獲得食物。
+    </string>		
+	
+	<string name="help_hydration_title">口渴</string>	
+	<string name="help_hydration_description">
+表示一個人的口渴狀態。如果太低，(b)生命(/b) 會開始減少，最後甚至死亡。
+(b)口渴(/b) 可透過飲用 (b)河水(/b)、(b)湖水(/b)、(b)井水(/b) 或 (b)儲存的飲水(/b) 恢復。
+    </string>	
+	
+	<string name="help_rest_title">疲勞</string>	
+	<string name="help_rest_description">
+表示一個人的疲勞狀態。如果太低，村民會工作效率會降低。
+(b)疲勞(/b) 可以透過在 (b)帳篷(/b)、(b)茅屋(/b) 或 (b)石屋(/b) 中睡覺來恢復。
+    </string>
+	
+	<string name="help_temperature_title">體溫</string>	
+	<string name="help_temperature_description">
+表示一個人的體溫。如果太低，(b)生命(/b) 會開始減少，最後甚至死亡。
+村民在 (b)帳篷(/b)、(b)茅草屋(/b) 或 (b)石屋(/b) 內穿上更厚的衣服來使自己變暖。
+    </string>		
+	
+	<string name="help_stamina_title">耐力</string>	
+	<string name="help_stamina_description">
+表示一個人多久需要休息。如果太低，村民不能奔跑。這在戰鬥或是狩獵時很重要。
+(b)耐力(/b) 在閑置時會自動恢復。
+    </string>		
+	
+	<string name="help_morale_title">心情</string>	
+	<string name="help_morale_description">
+表示一個人的心理健康狀態。如果太低，會 (b)降低工作效率(/b)。保持好心情是成功解決問題的關鍵。
+(b)飢餓(/b)、(b)死亡(/b) 或是執行 (b)繁瑣的任務(/b)，像是耕作或是搬運重物都會使心情變低。
+心情可以透過參觀宗教建築來恢復，像是 (b)骷髏桿(/b)、(b)圖騰(/b)、(b)巨石(/b)、(b)石棚墓(/b) 或 (b)巨石陣(/b)。高級的宗教建築恢復的較多心情。
+村民必須等待一段時間後，才能從相同的建築中恢復心情，因此建造多個宗教建築是很重要的。
+在遊戲後期，你可以生產 (b)啤酒(/b)，會快速恢復心情，但是需要穀物作為原料。 
+	</string>			
+	
+  <string name="help_knowledge_title">知識</string>
+  <string name="help_knowledge_description">
+在遊戲中完成各種目標後，你會獲得 (b)知識點(/b)：
+• 達到大量人口
+• 建造不同種類的建築
+• 狩獵不同種類的動物
+• 獲得各種資源
+• 擊殺侵略者
+• 解鎖里程碑
+• 生存更多年
+你可以使用這些點數解鎖新 (b)科技(/b)，讓你可以升級村莊，維持更多人口。
+  </string>
+	
+	<string name="help_crafting_title">製作</string>
+  <string name="help_crafting_description">
+村民可以在村莊的建築中製作各種資源。
+要製作資源，在選取 (b)製作建築(/b) 後點擊配方。如果資源足夠，村民會開始製作。
+也可以右鍵點擊配方，來切換 (b)持續生產(/b)。當啟用時，村民會自動生產資源直到所設定的 (b)資源上限(/b) 為止。
+  </string>
+	
+	<string name="help_expanding_title">擴張</string>
+  <string name="help_expanding_description">
+如果村莊的 (b)幸福度(/b) 夠高且居住空間足夠，新人會加入村莊，且女性會 (b)生小孩(/b)。
+你可以建造 (b)帳篷(/b)、(b)茅草屋(/b) 或 (b)石屋(/b) 來增加居住空間。
+移民出現的頻率取決於村莊的 (b)幸福度(/b) 與 (b)聲望值(/b).
+生育率也取決於 (b)幸福度(/b)。
+  </string>	
+  
+  <string name="help_resource_limits_title">資源上限</string>
+	<string name="help_resource_limits_description">
+資源上限是一種將工作自動化的有效方式。
+設定一個 (b)資源上限(/b)，然後標記一個配方來持續生產或設置一個工作區：村民會持續的收集或生產資源直到所設定的資源上限為止。
+當資源被消耗低於上限時，村民會回來開始工作。
+你可以設定 3 種上限：
+(b)無限(/b)。不限制生產，有資源就會持續生產。
+(b)固定數量(/b)。設定一個指定的數量。一旦達到指定數量就會停止生產。
+(b)人口百分比(/b)。依人口的百分比來設定上限。使用百分比有助於避免在人口變化時要經常的調整上限。
+請注意，此上限只會影響工作區或自動製作，如果你明確的下了一個命令，會乎略此上限。
+	</string>
+	
+	<string name="help_animal_limits_title">動物上限</string>
+	<string name="help_animal_limits_description">
+動物上限是控制 (b)動物數量(/b) 的有效方法，可以保證它們不會消耗太多的畜舍空間或資源。
+(b)預設(/b) 只會宰殺 (b)非常老的動物(/b)，因為它們會壽終正寑。
+無論如何，你可以為每種動物都指定一個 (b)上限(/b)，然後你的村民會 (b)自動宰殺(/b) 將動物數量保持在此限制數量以下。
+村民們會宰殺正確的動物以保持公/母的比例。
+	</string>	
+	
+  <string name="help_resource_decay_title">資源消耗</string>
+  <string name="help_resource_decay_description">
+多數資源與工具會隨著時間經過而 (b)損壞(/b)，工具在使用時也會加速損壞。
+儲存在建築裡的資源，損壞速度會變慢。這對食物來說特別重要，它可能意味著過個好冬或是飢荒。
+一些食物 (b)腐化的很快(/b) 像是：水果、漿果或是生肉與生魚。
+一些食物 (b)保存期較長(/b) 像是：穀物、醃肉與魚乾。
+村民會試著先吃掉快腐壞的食物，後吃保存期較長的食物。
+	</string>	
+	
+  <string name="help_workload_title">工作量</string>
+  <string name="help_workload_description">
+(b)工作量(/b) 是村莊內的任務數量與總人口的比率。
+如果要求村民做太多的事情，他們會太累並影響正常工作的優先度。
+確保工作量是合理的，並與人力資源是成比例的。
+你可以使用 (b)任務(/b) 與 (b)活動面板(/b) 來查看村民可以執行多少工作。
+	</string>
+	
+  <string name="help_human_roles_title">村民角色</string>
+  <string name="help_human_roles_description">
+不同年齡的村民，可以執行不同的任務：
+(b)兒童(/b)。他們可以一次可以搬運一個輕型資源，並可以執行不需使用工具的基礎任務。
+(b)成人(/b)。他們是村民中最有效率的，他們可以搬運大量的資源與執行任何任務。
+(b)老人(/b)。他們可以執行和成年人一樣的任務，但健康狀態較差與可搬運少量的資源。
+	</string>
+  
+  <string name="help_work_area_title">工作區</string>
+  <string name="help_work_area_description">
+設置 (b)工作區(/b) 讓多數的 (b)收集(/b) 與 (b)開採(/b) 任務可以自動化。
+在之後你規劃了一個資源存儲區後，村民會持續收集資源直到所設定 (b)資源上限(/b) 為止。
+預設只會有一個人在工作區工作，但是你可以在面板中調整工人數量。
+  </string>
+	
+  <string name="help_foods_title">食物</string>
+  <string name="help_foods_description">
+有 (b)不同種類的食物(/b) 可供村民食用，了解它們有什麼不同是很重要的。
+(b)生魚(/b)。 全年，每個河川或湖泊都有一定數量的漁貨，一旦你捕捉完了，需要等待一段時間才能再次捕捉。你可以使用 (b)曬肉架(/b) 將 (b)生魚(/b) 製成 (b)魚乾(/b) 以保存更久。
+(b)生肉(/b)。 全年都可以狩獵動物以獲取他們的肉，但在冬季它們出現在出量較少。你可以使用 (b)曬肉架(/b) 將 (b)生肉(/b) 製成 (b)醃肉(/b) 以保存更久。
+(b)漿果(/b)、(b)水果(/b) 與 (b)堅果(/b)。多數可在夏季採集，少數可在秋季採集。保存期限較短，但是一種很棒的季節性食物，所以你可以儲存一些防腐食物用來過冬。
+(b)豆類(/b)。可在夏季收獲，需要專門的收獲工具與科技才能進行處理。保存期較長。
+(b)穀物(/b)。保存期很長，但需要進行加工才能食用：首先需要先製成 (b)麵粉(/b) 然後做成 (b)麵包(/b)。這很費工。
+村民會試著先吃掉快腐壞的食物。
+	</string>
+	
+  <string name="help_welfare_title">幸福度</string>
+  <string name="help_welfare_description">
+表示村莊的經營狀態。
+基於村民 (b)統計數據(/b)、(b)衣服(/b) 與 (b)食物存量(/b)。
+幸福度高 (b)移民(/b) 會來加入你的村莊，越高出現的頻率越高。
+幸福度也會影響 (b)出生率(/b)。
+	</string>	
+	
+  <string name="help_prestige_title">聲望值</string>
+  <string name="help_prestige_description">
+表示村莊的知名度。
+基於村莊的 (b)人口(/b)、(b)建築(/b) 與 (b)科技(/b)。
+聲望越高 (b)移民(/b) 與 (b)交易商(/b) 出現的頻率越高。
+建造 (b)巨石陣(/b) 是增加 (b)聲望(/b) 的好方法。
+	</string>		
+
+	<!-- Conditions here refers to diseases or infections-->
+  <string name="help_conditions_title">健康狀況</string>
+  <string name="help_conditions_description">
+人類會受 (b)疾病(/b) 或 (b)感染(/b) 而影響他們的健康狀況。
+這些狀況會經過 (b)經常挨餓(/b) 或 (b)持續受傷(/b) 引發。
+當一個人的健康狀況隨著時間降到零時，他們會死亡。
+存活機會是亂數的，並基於他們個人的健康狀況。
+	</string>
+	
+	<string name="help_controls_title">控制</string>	
+	<string name="help_controls_description">
+(b)鏡頭(/b)
+
+移動：(camera_move_keys)
+旋轉：(camera_rotate_keys)
+縮放：(b)Mouse Wheel(/b)
+
+
+(b)選取(/b)
+
+選擇物件：(b)點擊左鍵(/b)
+選擇相似物件：(b)雙擊左鍵(/b)
+增加/移除 到/從 選取：(b) Shift + 點擊左鍵(/b)
+
+選取多個物件：(b)拖曳左鍵(/b)
+只選取獵人：按住 (hunter_selection_key) 鍵時 (b)拖曳左鍵(/b)
+只選取戰士：按住 (fighter_selection_key) 鍵時 (b)拖曳左鍵(/b)
+
+下命令：(b)點擊右鍵(/b)
+下命令：下達衝刺命令：(b)雙擊右鍵(/b)
+
+
+(b)管理(/b)
+
+快速存檔：(b)F9(/b)
+主選單：(b)F10(/b)
+
+
+(b)按鍵綁定(/b)
+
+	</string>
+	
+	<string name="help_customizable_panels_title">自訂面板</string>	
+	<string name="help_customizable_panels_description">
+按下畫面上方的 (b)+(/b) 按鈕，可以 (b)自訂資訊面板(/b)。
+你可以根據目前的狀況，顯示最多的 (b)相關資訊(/b)。
+	</string>
+	
+	<string name="help_transport_title">運輸</string>	
+	<string name="help_transport_description">
+(b)運輸(/b) 是增加效率的好方法。
+有些資源，像是 (b)原木(/b)、(b)石頭(/b)、(b)銅礦(/b), (b)錫礦(/b) 或 (b)鐵礦(/b) 是很重難以搬運的。
+只有成人會用很慢的速度一次運送一個，並會使心情變差。
+(b)雪橇(/b) 與 (b)拖車(/b) 可以解決這個問題，它們讓你更有效率的一次運輸多個(b)重型資源(/b)。
+	</string>
+	
+	<string name="help_fuel_title">燃料</string>	
+	<string name="help_fuel_description">
+為了 (b)烹飪食物(/b) 與保持溫暖，你需要為 (b)火爐(/b)、(b)茅草屋(/b)、(b)石屋(/b) 與 (b)烤爐(/b) 填加燃料。
+你可以使用 (b)樹枝(/b) 或 (b)原木(/b) 作為燃料。村民會自動為所有建築補充燃料，除非你在每個每個建築中停用這個功能。
+	</string>
+	
+  <!-- === Main categories === -->
+  
+	<string name="help_structures_title">建築</string>
+	<string name="help_structures_description">
+你可以建造許多不同的建築。最初只有少數幾種，隨著遊戲進行你會解鎖更多。</string>
+	
+	<string name="help_resources_title">資源</string>
+	<string name="help_resources_description">
+你需要管理各種資源以維持村莊運作。
+多數資源會損壞變得無法使用，所以你需要持續生產它們。
+	</string>
+	
+	<string name="help_techs_title">科技</string>
+	<string name="help_techs_description">
+科技使用能生產 (b)更多資源(/b)、建造 (b)新建築(/b) 與 (b)推進(/b) 時代。
+你需要在科技面板使用知識點研究並解鎖新科技。
+當你做下列動作會獲得 (b)知識點(/b) 例口：狩獵動物、採集資源或達到較高人口。
+如果你之前解鎖過了 (b)必備科技(/b) 與所屬 (b)時代(/b) 你將只能解鎖科技。
+要解鎖新時代，你需要兩倍的知識點，才能解鎖時代科技。
+    </string>
+	
+	<string name="help_animals_title">動物</string>
+	<string name="help_animals_description">	
+動物是許多關鍵資源的來源，像是 (b)生肉(/b)、(b)骨頭(/b) 或 (b)生皮(/b)。
+在 (b)冬季(/b) 多數動物會冬眠或是遷移到較溫暖的地方，因此數量會減少。
+一旦你取得馴服科技，你可以捕捉動物幼崽來自行繁殖它們。
+	</string>
+
+	<string name="help_transports_title">運輸工具</string>
+	<string name="help_transports_description">
+運輸工具加快村民 (b)搬運資源(/b) 的速度。(b)巨石拖車(/b) 是特殊的運輸工具。
+	</string>
+	
+	
+  <!-- === STRUCTURES: categories === -->
+  
+	<string name="help_buildable_category_residence_description">提供房屋給村民或動物的建築。</string>
+	<string name="help_buildable_category_storage_description">儲存資源的建築。</string>
+	<string name="help_buildable_category_production_description">加工資源的建築。</string>
+	<string name="help_buildable_category_defensive_description">幫助你抵抗 (b)侵略者(/b) 或危險的 (b)掠食者(/b) 的建築。</string>
+	<string name="help_buildable_category_metallurgy_description">開採與加工金屬的建築。</string>
+	<string name="help_buildable_category_spiritual_description">
+增加村民 (b)心情(/b) 的建築。
+當村民 (b)心情(/b) 變差時，會參觀宗教建築恢復心情。請注意，同一個人不能多次參觀同類的建築，所以建造多個不同類型的宗教建築是很重要的。
+	</string>
+	<string name="help_buildable_category_transport_description">增加運輸效率的建築。</string>
+	
+  <!-- === Structures === -->
+
+	<!-- === Residence === -->
+	
+	<string name="tent_short_description">基礎房屋</string>
+	<string name="tent_help_description">
+最早與最基礎的房屋，村民可以在裡面 (b)休息(/b) 與 (b)避寒(/b)。
+它很容易損壞需要經常維護。
+在 (b)舊石器時代(/b) 可以建造。
+	</string>
+	
+	<string name="hut_short_description">有茅草屋頂的房屋</string>
+	<string name="hut_help_description">
+使用 (b)泥土(/b) 建造，並有 (b)茅草(/b) 屋頂，村民可以在裡面 (b)休息(/b)、(b)避難(/b) 與 (b)烹飪(/b)。
+比 (b)帳篷(/b) 耐用，且能住更多人。
+它需要 (b)茅草屋頂(/b) 科技才能建造。
+	</string> 
+
+	<string name="roundhouse_short_description">圓型石屋</string>
+	<string name="roundhouse_help_description">
+使用 (b)石頭(/b) 建造，並有 (b)茅草(/b) 屋頂，村民可以在裡面 (b)休息(/b)、(b)避難(/b) 與 (b)烹飪(/b)。
+比 (b)茅草屋(/b) 耐用且能住更多人。
+它需要 (b)石匠(/b) 科技才能建造。
+	</string>
+	
+	<string name="stables_short_description">牧場</string>
+	<string name="stables_help_description">
+在冬季提供飼料與水給 (b)家畜(/b) 的 (b)棚屋(/b)。
+它需要定期維護。
+	</string>
+	
+	<!-- === Storage === -->
+	
+	<string name="storage_tent_short_description">基礎倉庫</string>
+	<string name="storage_tent_help_description">
+一個大型帳篷用來儲放資源，可以儲放資源並保存較長時間。
+它很容易損壞需要經常維護。
+在 (b)舊石器時代(/b) 可以建造。
+	</string>
+
+	<string name="wood_pile_short_description">堆放樹枝與原木的地方</string>
+	<string name="wood_pile_help_description">
+堆放 (b)樹枝(/b) 或 (b)原木(/b) 的地方，而不是使用房屋或是其它倉庫浪費保貴的儲存空間。
+	</string>
+	
+	<string name="haystack_short_description">堆放稻草的地方</string>
+	<string name="haystack_help_description">
+堆放 (b)稻草(/b) 的地方，而不是使用居住空間或是其它倉庫浪費保貴的儲存空間。
+	</string>
+	
+	<string name="storage_hut_short_description">儲存與保護資源的茅草屋</string>
+	<string name="storage_hut_help_description">
+一個大型 (b)泥土(/b) 建築，有 (b)茅草屋頂(/b)，可以儲存資源並保存較長時間。
+它比 (b)簡易倉庫(/b) 耐用，可以儲存更多資源並保存較長時間。
+它需要 (b)茅草屋頂(/b) 科技才能建造。
+	</string>
+	
+	<string name="granary_short_description">保存食物的建築</string>
+	<string name="granary_help_description">
+一個加高的茅草屋，專門為了保持食物乾燥與 (b)長時間(/b) 保存的建築。  
+糧倉相當耐用，但是需要不時的修改。
+它需要 (b)茅草屋頂(/b) 科技才能建造。
+	</string>
+	
+	<string name="rock_pile_short_description">堆放燧石、石頭或礦物的地方</string>
+	<string name="rock_pile_help_description">
+堆放 (b)燧石(/b)、(b)石頭(/b) 或 (b)礦物(/b)的地方，而不是使用居住空間或是其它倉庫浪費保貴的儲存空間。
+	</string>
+
+	<string name="warehouse_short_description">用來儲存與保護資源的石屋</string>
+	<string name="warehouse_help_description">
+一個大型 (b)石頭(/b) 建築，有 (b)茅草屋頂(/b)，可以儲存資源並保存較長時間。
+它比 (b)倉庫(/b) 更耐用，可以儲存更多資源並保存較長時間。
+它需要 (b)石匠(/b) 科技才能建造。
+	</string>	
+	
+	<!-- === Production === -->
+	
+	<string name="hearth_short_description">烹飪，製作麵包和社交的地方</string>
+	<string name="hearth_help_description">
+一個烹飪，製作麵包和社交的地方
+	</string>	
+	
+	<string name="crafter_short_description">製作工具與衣服的地方</string>
+	<string name="crafter_help_description">
+在 (b)石器時代(/b) 工藝台是主要的生產建築。
+在早期時代，村民可以在這製作所有需要的 (b)工具(/b) 與 (b)衣服(/b)。
+使用 (b)自動化生產(/b)(右鍵點擊物品) 與 (b)資源上限(/b) 是個避免每次需要時都要手動製作的好方法。
+	</string>
+	
+	<string name="skins_dryer_short_description">曬生皮的地方</string>
+	<string name="skins_dryer_help_description">
+村民會將 (b)生皮(/b) 製成更耐用的 (b)毛皮(/b)
+	</string>
+	
+	<string name="food_dryer_short_description">曬肉的地方</string>
+	<string name="food_dryer_help_description">
+(b)生肉(/b) 與 (b)生魚(/b) 可以加工成 (b)醃肉(/b) 與 (b)魚乾(/b)。
+	</string>
+
+	<string name="mortar_short_description">用石頭將穀物磨成麵粉</string>
+	<string name="mortar_help_description">
+用石頭將 (b)穀物(/b) 磨成 (b)麵粉(/b)。這需使用大量勞力。
+	</string>
+	
+	<string name="tanner_short_description">將生皮製成皮革的地方</string>
+	<string name="tanner_help_description">
+使用 (b)丹寧(/b) 將 (b)生皮(/b) 製成 (b)皮革(/b) 的地方。
+	</string>
+
+	<string name="well_short_description">獲取水源的深井</string>
+	<string name="well_help_description">
+水井提供穩定的 (b)水源(/b)，可以放在村莊內，避免村民跑到河邊或湖邊喝水。
+	</string>
+	
+	<string name="flint_mine_short_description">開採燧石的地下建築</string>
+	<string name="flint_mine_help_description">
+挖掘地下 (b)增加(/b) 採石場 (b)燧石(/b) 的產量。
+	</string>
+	
+	<string name="weaver_short_description">製作布料的地方</string>
+	<string name="weaver_help_description">
+使用 (b)亞麻(/b) 與 (b)羊毛(/b) 編織布料，可用來製作衣服。
+	</string>
+
+	<string name="outfitter_short_description">製作衣服的地方</string>
+	<string name="outfitter_help_description">
+製作 (b)亞麻衣(/b) 與 (b)羊毛衣(/b) 的地方。
+	</string>	
+
+	<string name="brewery_short_description">釀啤酒的地方</string>
+	<string name="brewery_help_description">
+村民可以使用 (b)穀物(/b) 與 (b)水(/b) 釀造 (b)啤酒(/b)。
+(b)啤酒(/b) 會使心情變好。
+	</string>
+
+	<string name="watermill_short_description">使用水力研磨穀物</string>
+	<string name="watermill_help_description">
+使用水力快速大量的將 (b)穀物(/b) 磨成 (b)麵粉(/b)。
+	</string>
+
+	<string name="oven_short_description">一個公共烤爐，烘烤大量麵包</string>
+	<string name="oven_help_description">
+快速的烘烤大量的 (b)麵毛(/b)。
+	</string>
+	
+	<string name="workshop_short_description">製作其它工具的地方</string>
+	<string name="workshop_help_description">
+在 (b)銅器時代(/b) 製作工具的地方。
+這建築結合了 (b)金屬匠工坊(/b) 或 (b)鐵匠工坊(/b) 取代了 (b)工藝台(/b)。
+	</string>	
+	
+	<!-- === Metallurgy === -->
+		
+	<string name="copper_mine_short_description">開採銅礦的地下建築</string>
+	<string name="copper_mine_help_description">
+挖掘地下 (b)增加(/b) 礦場 (b)銅礦(/b) 的產量。
+	</string>
+
+	<string name="tin_mine_short_description">開採錫礦的地下建築</string>
+	<string name="tin_mine_help_description">
+挖掘地下 (b)增加(/b) 礦場 (b)錫礦(/b) 的產量。
+	</string>
+	
+	<string name="iron_mine_short_description">開採鐵礦的地下建築</string>
+	<string name="iron_mine_help_description">
+挖掘地下 (b)增加(/b) 礦場 (b)鐵礦(/b) 的產量。
+	</string>	
+	
+	<string name="deep_iron_mine_short_description">深層地下礦坑可以增加鐵礦的開採量</string>
+	<string name="deep_iron_mine_help_description">
+深層採礦 (b)增加(/b) 礦場 (b)鐵礦(/b) 的產量。
+一旦原始礦場耗盡而村民必須挖的更深時，(b)採礦速度(/b) 會 (b)變慢(/b)。
+	</string>
+	
+	<string name="charcoal_pit_short_description">燒製木炭的地方</string>
+	<string name="charcoal_pit_help_description">
+燒製 (b)木炭(/b) 的地方。
+熔爐使用 (b)木炭(/b) 可精煉金屬。
+	</string>
+
+	<string name="pit_furnace_short_description">將銅礦與錫礦精煉成銅與青銅的地方</string>
+	<string name="pit_furnace_help_description">
+在熔爐中使用 (b)木炭(/b) 利用高溫將 (b)銅礦(/b) 與 (b)錫礦(/b) 精煉成 (b)銅(/b) 與 (b)青銅(/b)。
+	</string>
+	
+	<string name="metalsmith_short_description">製作銅器與青銅器的地方</string>
+	<string name="metalsmith_help_description">
+製作 (b)銅器(/b) 與 (b)青銅器(/b) 的地方。
+請注意，只能有一個工人在此工作，所以你通常需要建造幾個相同的建築。
+	</string>
+
+	<string name="bloomery_short_description">將鐵礦精煉成鐵與鋼的地方</string>
+	<string name="bloomery_help_description">
+一個高級熔爐，可以加熱到極高的溫度，可以將 (b)鐵礦(/b) 精煉成 (b)鐵(/b) 與 (b)鋼(/b)。
+	</string>
+
+	<string name="blacksmith_short_description">製作鐵器與鋼器地方</string>
+	<string name="blacksmith_help_description">
+製作 (b)鐵器(/b) 與 (b)鋼器(/b 的地方。
+請注意，只能有一個工人在此工作，所以你通常需要建造幾個相同的建築。
+	</string>
+
+	<!-- === Defensive === -->
+
+	<string name="palisade_short_description">簡單木造建築，用來保護村莊</string>
+	<string name="palisade_help_description">
+簡單木造建築，用來保護村莊。它使用 (b)原木(/b) 建造並提供合理的防護等級。
+	</string>
+
+	<string name="gate_short_description">簡單的木造大門，用來管制村莊的出入口。</string>
+	<string name="gate_help_description">
+簡單木造大門，在合理時間內抵檔攻擊。
+	</string>
+		
+	<string name="wooden_platform_short_description">讓村民能從圍牆 (b)內(/b) 對敵人進行射擊的建築。</string>
+	<string name="wooden_platform_help_description">
+讓村民能從圍牆 (b)內(/b) 對敵人進行射擊。
+在平台上的勇士們對投射物有 (b)額外的保護(/b)。
+需要緊鄰著 (b)柵欄(/b) 或 (b)牆(/b) 的內側建造。
+	</string>
+
+	<string name="watchtower_short_description">基礎防禦塔，可以從裡面射擊敵人</string>
+	<string name="watchtower_help_description">
+最基礎的防禦塔，裡面可以容納 2 個村民，並可以 (b)射擊敵人(/b)。 
+需要經常 (b)修理(/b) 與維護。
+	</string>
+
+	<string name="wall_short_description">堅固的石牆，可以保護村莊</string>
+	<string name="wall_help_description">
+堅固的 (b)石牆(/b)，提供高等級的防護抵抗入侵。
+	</string>
+
+	<string name="reinforced_gate_short_description">強化金屬大門</string>
+	<string name="reinforced_gate_help_description">
+(b)強化(/b) 的 (b)金屬(/b) 大門，會增抵抗攻擊的能力。
+	</string>
+		
+	<string name="reinforced_platform_short_description">強化平台可以承載更多人</string>
+	<string name="reinforced_platform_help_description">
+讓村民能從圍牆 (b)內(/b) 對敵人進行射擊。
+在平台上的勇士們對投射物有 (b)額外的保護(/b)。
+需要緊鄰著 (b)柵欄(/b) 或 (b)牆(/b) 的內側建造。
+此種結構可以承戴更多人並比 (b)木平台(/b) 更穩定。
+	</string>
+
+	<string name="guard_tower_short_description">強化防禦塔</string>
+	<string name="guard_tower_help_description">
+強化防禦塔。裡面可容納 3 個村民，並可以射擊敵人。
+防禦塔需要經常修理與維護。
+	</string>
+	
+	<!-- === Spiritual === -->
+
+	<string name="skull_pole_short_description">記念死者的建築</string>
+	<string name="skull_pole_help_description">
+記念死者的建築，村民參觀它會使 (b)心情(/b) 變好。
+	</string>
+
+	<string name="totem_short_description">崇尚自然的建築</string>
+	<string name="totem_help_description">
+一個高大的建築，章顯部落強大與自然的關係。村民參觀後 (b)心情(/b) 會變好。
+	</string>
+	
+	<string name="menhir_short_description">站立的巨石</string>
+	<string name="menhir_help_description">
+一個站立的 (b)巨石(/b)。村民參觀後 (b)心情(/b) 會變好。
+	</string>
+
+	<string name="dolmen_short_description">大型的紀念碑，支撐著更巨大的石頭</string>
+	<string name="dolmen_help_description">
+幾個石柱組成的石陣，有一個或多個石頭放在上面。它會增加村莊的 (b)聲望(/b) 並使村民的 (b)心情(/b) 變好。
+	</string>
+
+	<string name="stone_circle_short_description">終極巨石建築</string>
+	<string name="stone_circle_help_description">
+由幾個 (b)巨石(/b) 排成圓圈的大型建築。它會大量增加村莊的 (b)聲望(/b) 並使村民的 (b)心情(/b) 變好。
+	</string>
+	
+	<string name="statue_short_description">巨石雕</string>
+	<string name="statue_help_description">
+一個雕刻過 (b)巨石(/b)。村民可以用它恢復 (b)心情(/b).
+	</string>
+	
+	<string name="banner_short_description">章顯村莊的力量</string>
+	<string name="banner_help_description">
+章顯村莊的力量。村民可以用它恢復 (b)心情b)。
+	</string>	
+	
+	<string name="cairn_short_description">一種複雜的巨石藝術</string>
+	<string name="cairn_help_description">
+用不同大小的石塊所建造的一種複雜巨石藝術。它大大的增加村莊的 (b)聲望(/b) 與增加村民的 (b)心情(/b)。
+	</string>
+	
+	
+	<!-- === Transport === -->
+	<string name="bridge_short_description">可以輕鬆過河的建築</string>
+	<string name="bridge_help_description">
+可以輕鬆 (b)過河(/b) 的建築
+這對 (b)雪橇(/b) 與 (b)托車(/b) 特別有用，否則他們必須利用最近的淺灘通過。
+	</string>	
+
+  <!-- === RESOURCES: Categories === -->
+  
+	<string name="help_category_tool_description">
+執行某些任務需要使用工具，像是狩獵、解剖、採礦、釣魚或收獲。村民會自動使用正確的工具來完成工作。
+每種工具都有一些屬性，表示出工具適合執行那些任務：
+(b)戰鬥。(/b) 近身戰鬥。
+(b)狩獵。(/b) 殺死動物或遠程戰鬥。
+(b)解剖。(/b) 解剖死亡的動物，提取資源。
+(b)釣魚。(/b) 從河川或湖泊釣魚。
+(b)收獲。(/b) 收穫穀物或豆類。
+(b)採礦。(/b) 從礦藏或礦山挖掘礦物。
+(b)伐木。(/b) 砍倒樹木。
+戰鬥與狩獵屬性影響攻擊傷害，其它的屬性影響任務完成的速度。
+	</string>
+	
+	<string name="help_category_clothing_description">
+衣服可以給村民禦寒，增加幸福度與減少戰鬥時的傷害。
+(b)皮衣(/b) 與 (b)羊毛衣(/b) 保護村民免於受凍。讓每個村民都有一件，是 (b)重要(/b) 的事情。
+當天氣變溫暖時，村民們會較喜歡穿 (b)皮衣(/b) 或 (b)亞麻衣(/b)，這些服裝會增加 (b)幸福度(/b) 並在戰鬥中提供輕微的保護。
+確保衣服數量足夠的有效方法是，在 (b)工藝台(/b) 或 (b)製衣工坊(/b) 將衣服設為持續生產並將資源上限設為 100%.
+當溫度低到衣服無法保暖時，村民的體溫會開始降低，在這個時候他們會尋找 (b)房屋(/b)，否則會死於 (b)低溫(/b)
+	</string>
+	
+	<string name="help_category_food_and_drink_description">
+消耗資源可以恢復 (b)飢餓(/b) 與 (b)口渴(/b)。
+	</string>
+	
+	<string name="help_category_material_description">
+資源可以用來 (b)製作(/b) 或 (b)建造(/b) 其它資源或建築。
+	</string>
+	
+  <!-- === Tools === -->
+
+	<string name="biface_short_description">通用切割工具</string>
+	<string name="biface_help_description">
+基礎切割工具，用來 (b)解剖(/b) 動物，(b)收獲(/b) 植物或是當作近身戰鬥 (b)武器(/b)。
+Bifaces are classified as a knives rather than axes, based on the functions they perform.
+	</string>
+	
+	<string name="wooden_spear_short_description">基礎狩獵工具</string>
+	<string name="wooden_spear_help_description">
+最基礎的 (b)狩獵(/b) 與 (b)遠程戰鬥(/b) 工具。尖端用火烤過的簡單木矛。
+	</string>	
+
+	<string name="spear_short_description">狩獵工具</string>
+	<string name="spear_help_description">
+矛可用來 (b)狩獵(/b) 動物 或 (b)攻擊(/b) 敵人。矛柄由木頭做成，矛尖使用不同材料製成，像是 (b)骨頭(/b)、(b)燧石(/b) 或 (b)金屬(/b)。
+較適合用於遠程戰鬥，但如果需要也可以用於近戰，但是會降低效果。
+	</string>
+
+	<string name="harpoon_short_description">捕魚工具</string>
+	<string name="harpoon_help_description">
+魚叉是 (b)捕魚(/b) 專用的工具。手柄由木頭做成，前端設計用來捕魚。
+	</string>  
+
+	<string name="fishing_rod_short_description">專門捕魚工具</string>
+	<string name="fishing_rod_help_description">
+高效率的 (b)捕魚(/b) 工具，可以捕捉幾乎任何種類的魚。
+	</string>
+	
+	<string name="fish_trap_short_description">高級捕魚工具</string>
+	<string name="fish_trap_help_description">
+高效率的 (b)捕魚(/b) 工具，可用來捕捉大多種類的魚。
+	</string>  		
+	
+	<string name="axe_short_description">伐木與戰鬥工具</string>
+	<string name="axe_help_description">
+斧頭適合用來 (b)砍樹(/b) 或是作為近戰 (b)武器(/b)。基於 (b)燧石(/b) 或 (b)金屬(/b) 製成，具有不同的耐久度與強度。
+	</string>
+
+	<string name="pick_short_description">採礦或採石工具。</string>
+	<string name="pick_help_description">
+鎬子主要用來 (b)採石(/b) 與 (b)採礦(/b)。它是由木製手柄與堅硬的 (b)燧石(/b) 或 (b)金屬(/b) 組成。
+	</string>
+
+	<string name="knife_short_description">專門用於屠宰動物的工具</string>
+	<string name="knife_help_description">
+刀子主要用於 (b)解剖(/b) 動物與 (b)宰殺(/b) 家畜。
+如果需要也可以用來 (b)近戰(/b)。
+由木製刀柄與 (b)燧石(/b) 或 (b)金屬(/b) 刀身組成。
+	</string>
+
+	<string name="sickle_short_description">收獲工具</string>
+	<string name="sickle_help_description">
+鐮刀是專門設計用來 (b)收獲農作物(/b) 的工具。刀身的材質越好，工具的效果越好。
+	</string>  
+
+	<string name="bow_short_description">狩獵與遠程戰鬥武器</string>  
+	<string name="bow_help_description">
+優秀的 (b)遠程(/b) 攻擊 (b)武器(/b)，用來 (b)狩獵(/b) 或 (b)攻擊(/b) 遠方的敵人。
+弓的攻擊距離比矛遠，但是近戰沒有傷害。
+	</string>    
+
+	<string name="sling_short_description">基礎狩獵工具</string>
+	<string name="sling_help_description">
+彈弓是一種基礎，容易製作的 (b)遠程(/b) 武器，主要用於 (b)狩獵(/b)。
+彈弓的攻擊距離比矛遠，但是近戰沒有傷害。
+	</string>  
+	
+	<string name="sword_short_description">近戰武器</string>
+	<string name="sword_help_description">
+在古代，劍是 (b)近戰(/b) 最有效的武器。由木製劍柄與金屬劍身組成。
+	</string>
+		
+	<string name="round_shield_short_description">小盾牌可以提供基本的保護</string>
+	<string name="round_shield_help_description">
+一種用木頭與皮革製作的小圓盾。在戰鬥中提供基本的保護。 
+可以使用像是 (b)劍(/b) 或 (b)斧(/b) 的單手武器。
+	</string>	
+	
+	<string name="oval_shield_short_description">大盾牌提供良好的保護</string>
+	<string name="oval_shield_help_description">
+一種用木頭與鐵製作的大橢圓盾牌。在戰鬥中提供良好的保護。 
+可以使用像是 (b)劍(/b) 或 (b)斧(/b) 的單手武器。
+	</string>
+
+  <!-- === Materials === -->
+  
+	<string name="sticks_help_description">
+用於製作或建造的原料，或當作 (b)營火(/b)、(b)茅草屋(/b)、(b)烤爐(/b) 或 (b)石屋(/b) 的燃料。
+	</string>
+
+	<string name="log_help_description">
+原木可用來建造或當作 (b)營火(/b)、(b)茅草屋(/b)、(b)烤爐(/b) 或 (b)石屋(/b) 的燃料。
+	</string>
+
+	<string name="flint_help_description">
+在 (b)石器時代(/b)，有價值的製作原料，用來製作各種 (b)工具(/b)。
+	</string>
+
+	<string name="stone_help_description">
+用來建造堅固建築的大型石頭。
+	</string>
+
+	<string name="megalith_help_description">
+巨石用來建造 (b)巨石建築(/b)。
+需先開採巨石，然後準備好運輸，最後由人力拉向建造地點。
+你可以使用 (b)顯示資源(/b) 模式來找到巨石。
+	</string>
+	
+	<string name="bone_help_description">
+用於製作或建築的原料。
+	</string>
+
+	<string name="raw_skin_help_description">
+從動物身上獲得生皮，需要 (b)曬乾(/b) 或 (b)加工(/b) 後才能使用。
+	</string>
+	
+	<string name="dry_skin_short_description">毛皮</string>	
+	<string name="dry_skin_help_description">
+毛皮用於 (b)製作(/b) 工具或 (b)建造(/b) 建築。
+	</string>
+	
+	<string name="leather_short_description">生皮經過加工後更為耐用</string>	
+	<string name="leather_help_description">
+(b)生皮(/b) 經過 (b)鞣製(/b) 變得更 (b)耐用(/b)。皮革可用於製作衣服、工具或建造建築。
+	</string>
+	
+	<string name="tannin_help_description">
+用於加工 (b)生皮(/b) 製作 (b)皮革(/b) 的物質。它可以由一些樹的樹皮中獲得，像是 (b)橡樹(/b) 與 (b)杉木(/b)。 
+	</string>
+	
+	<string name="straw_help_description">
+(b)稻草(/b) 收獲穀物時獲得。在新石器時代是很重要的資源，可作 (b)建材(/b) 與 (b)動物飼料(/b)。
+	</string>
+	
+	<string name="mud_help_description">
+當作 (b)建材(/b)，泥土可以從 (b)河川(/b) 或 (b)湖泊(/b) 中 (b)挖掘(/b)。
+	</string>
+
+	<string name="wool_help_description">
+從綿羊身上獲得的紡織纖維，用來製作 (b)保暖衣物(/b)。
+	</string>
+	
+	<string name="linen_help_description">
+從亞麻身上獲得的紡織纖維，用於製作衣服與其它資源。
+	</string>
+
+	<string name="wool_cloth_short_description">用來製作保暖衣物的布料</string>	
+	<string name="wool_cloth_help_description">
+有優秀隔熱屬性布料，可用來製作(b)保暖衣物(/b)。
+	</string>
+
+	<string name="linen_cloth_short_description">用來製作輕便衣服的布料</string>
+	<string name="linen_cloth_help_description">
+用來製作輕便衣服的布料。
+	</string>
+
+	<string name="charcoal_short_description">用於熔爐可精煉礦物</string>
+	<string name="charcoal_help_description">
+由 (b)木頭(/b) 在無氧的環境下燒製而成，用於熔爐提高溫度以便 (b)精煉(/b) (b)礦物(/b)。
+	</string>
+
+	<string name="copper_ore_help_description">
+銅礦。可精煉成 (b)銅(/b) 或混合 (b)錫礦(/b) 生產 (b)青銅(/b)。
+	</string>	
+	
+	<string name="tin_ore_help_description">
+錫礦。可混合 (b)銅礦(/b) 生產 (b)青銅(/b)。
+	</string>		
+	
+	<string name="iron_ore_help_description">
+鐵礦。可精煉成 (b)鐵(/b) 或 (b)鋼(/b)。
+	</string>
+
+	<string name="copper_short_description">軟金屬</string>
+	<string name="copper_help_description">
+(b)軟金屬(/b)，容易獲得並用於製作基礎工具。
+	</string>	
+
+	<string name="bronze_short_description">堅固耐用的金屬</string>
+	<string name="bronze_help_description">
+(b)銅礦(/b) 與 (b)錫礦(/b) 的合金，比 (b)銅(/b) 硬。
+(b)青銅(/b) 與 (b)鐵(/b) 一樣硬，但是需要錫才能製作，並不如 (b)鐵礦(/b) 常見。
+	</string>
+
+	<string name="iron_short_description">堅硬耐用的金屬</string>		
+	<string name="iron_help_description">
+鐵是 (b)堅硬耐用(/b) 的金屬，可用來製作許多工具、武器與建造。
+它需要用比 (b)青銅(/b) 更高的溫度才能精煉，所以它需要使用特殊的熔爐才能生產。
+它比 (b)青銅(/b) 好的地方在於 (b)鐵礦(/b) 的藏量比 (b)錫礦(/b) 豐富。
+	</string>
+	
+	<string name="steel_short_description">非常堅固耐用的金屬</string>			
+	<string name="steel_help_description">
+(b)鋼(/b) 是由混合了一定比例的炭與鐵經過精煉加工獲得。它是 (b)最堅固耐用(/b) 的金屬。
+	</string>
+	
+  <!-- === Food and drink === -->
+  
+	<string name="raw_meat_help_description">
+沒有經過任何加工處理的肉會 (b)快速腐壞(/b)。
+它可以 (b)烹飪(/b) 後食用。在特殊情況下也可以直接食用，但是可能會使心情變差。
+	</string>
+
+	<string name="cured_meat_short_description">醃過的肉。保存期較長</string>
+	<string name="cured_meat_help_description">
+肉可以在 (b)曬肉架(/b) 加工。它比 (b)生肉(/b) 的 (b)保存期長(/b)。
+	</string>	
+	
+	<string name="raw_fish_help_description">
+沒有經過任何加工處理的魚肉會 (b)快速腐壞(/b)。
+它可以 (b)烹飪(/b) 後食用。在特殊情況下也可以直接食用，但是可能會使心情變差。
+	</string>
+
+	<string name="dry_fish_short_description">曬乾後的魚。保存期較長</string>		
+	<string name="dry_fish_help_description">
+魚肉可以在 (b)曬肉架(/b) 加工。它比 (b)生魚(/b) 的 (b)保存期長(/b)。
+	</string>
+	
+	<string name="berries_help_description">
+野生植物會生產季節性水果。
+它們的保存期短，在當季 (b)食用(/b) 它們是為了更好的保留冬季所需的食物。
+	</string>
+	
+	<string name="fruit_help_description">
+野生果樹會生產季節性水果。
+它們的保存期短，在當季 (b)食用(/b) 它們是為了更好的保留冬季所需的食物。
+	</string>
+	
+	<string name="nuts_help_description">
+野生堅果樹會生產季節性堅果。
+它們的保存期短，在當季 (b)食用(/b) 它們是為了更好的保留冬季所需的食物。
+	</string>
+	
+	<string name="grain_help_description">
+可磨成 (b)麵粉(/b)，然後製作成 (b)麵包(/b)。也可以用來釀造 (b)啤酒(/b)，飲用後心情會變好。
+(b)保存期最長(/b) 的食物，(b)餵飽大量人口(/b) 的最佳資源，即使它需要大量人力加工。
+如果需要也可以當作動物飼料，但使用 (b)稻草(/b) 會比較好。
+	</string>
+	
+	<string name="flour_short_description">麵包的主要原料</string>	
+	<string name="flour_help_description">
+(b)穀物(/b) 用 (b)石臼(/b) 或 (b)水車(/b) 磨成粉。
+是 (b)麵包(/b) 的主要原料。
+	</string>
+	
+	<string name="bread_short_description">簡單的白麵包</string>		
+	<string name="bread_help_description">
+使用 (b)麵粉(/b) 與水做成麵團，經過 (b)營火(/b) 或 (b)烤爐(/b) 烘培而成的食物。
+它的保存期短，所以最好儲存 (b)穀物(/b) 並只在需要生產 (b)麵包(/b) 時候用。
+	</string>
+	
+	<string name="pulses_help_description">
+許多豆類。需要 (b)烹飪(/b) 後食用。
+	</string>
+	
+	<string name="milk_help_description">
+從馴養的 (b)山羊(/b) 或 (b)牛(/b) 身上取得的營養飲品。
+	</string>
+	
+	<string name="water_help_description">
+使用專門的打水工具，到河川、湖泊或水井打水，會比每個人都到水邊喝水有 (b)效率(/b)。
+在冬季畜舍內的 (b)動物(/b) 需要提供 (b)飲水(/b) 否則它們會渴死。
+	</string>
+	
+	<string name="beer_short_description">解渴與使心情變好</string>		
+	<string name="beer_help_description">
+透過 (b)穀物(/b) 與 (b)水(/b) 釀造的酒精飲料。飲用會使 (b)心情(/b) 變好。
+	</string>
+	
+	
+  <!-- === Clothing === -->
+
+	<string name="skins_outfit_short_description">毛皮製作而成的保暖衣物</string>
+	<string name="skins_outfit_help_description">
+(b)毛皮(/b) 製作而成的衣物，在冬季提供優秀的 (b)禦寒(/b) 能力。
+也會增加 (b)幸福度(/b)，並在戰鬥中提供輕微防護。
+	</string>
+
+	<string name="leather_outfit_short_description">皮革製作的輕便衣物</string>
+	<string name="leather_outfit_help_description">
+使用 (b)皮革(/b) 製作，在夏季時穿著的衣服。
+也會增加 (b)幸福度(/b)，並在戰鬥中提供輕微防護。
+	</string>
+	
+	<string name="wool_outfit_short_description">溫暖時尚的衣服</string>
+	<string name="wool_outfit_help_description">
+在 (b)寒冷(/b) 低溫的環境，提供 (b)保護(/b) 的溫暖衣物。
+也會增加 (b)幸福度(/b)，並在戰鬥中提供輕微防護。
+(b)羊毛衣(/b) 比 (b)皮衣(/b) 更 (b)耐用(/b)，並使 (b)心情(/b) 變好。
+	</string>
+	
+	<string name="linen_outfit_short_description">輕便時尚的衣服</string>
+	<string name="linen_outfit_help_description">
+在溫暖氣候穿的輕便衣物。
+也會增加 (b)幸福度(/b)，並在戰鬥中提供輕微防護。
+(b)亞麻衣(/b) 比 (b)皮衣(/b) 更 (b)耐用(/b)，並使 (b)心情(/b) 變好。
+	</string>	
+	
+  <!-- === TECHS: categories === -->
+	
+	<string name="help_era_paleolithic_description">
+這時期的人類，使用 (b)石頭(/b) 製成的工具，並以 (b)狩獵採集(/b) 為主要的生存方式。
+	</string>
+	
+	<string name="help_era_mesolithic_description">
+這時期的人類，開始製作 (b)陶器(/b) 與更複雜的 (b)石器(/b)。
+	</string>
+	
+	<string name="help_era_neolithic_description">
+這時期的人類，開始 (b)耕作(/b) 與 (b)飼養動物(/b) 並且科技進步快速。
+	</string>
+	
+	<string name="help_era_copper_age_description">
+這時期的人類，發現如何 (b)精煉銅(/b) 用來製作第一個金屬工具。
+	</string>
+	
+	<string name="help_era_bronze_age_description">
+這時期的人類，發現如何混合錫與銅，導致 (b)青銅器(/b) 的廣泛使用。
+	</string>
+
+	<string name="help_era_iron_age_description">
+這時間的特點就是廣泛的使用 (b)鐵器(/b)。
+	</string>
+
+	<!-- === Generic === -->
+	
+	<string name="domestication_tech_help_description">
+馴服懊技，讓你可以 (b)馴服野生動物(/b)。
+一旦研發此科技，你將能夠 (b)捕捉野生動省(/b) 或從交易商那 (b)購買(/b)。
+要捕獲野生動物，你需要選擇正確類型的動物幼崽，然後點擊捕捉按鈕。
+確保 (b)畜舍(/b) 有足夠的空間，否則動物將在冬季死亡。
+	</string>
+	
+	<!-- === Paleolithic === -->
+
+	<string name="bone_tools_help_description">
+解鎖使用動物 (b)骨頭(/b) 製作 (b)工具(/b) 的技術，會增加某些任務的工作效率。
+	</string> 
+	
+	<string name="composite_tools_help_description">
+解鎖使用 (b)多種零件(/b) 製作工具的技術。複合式工具對 (b)狩獵大型動物(/b) 或 (b)伐木(/b) 很有幫助。
+	</string> 	
+	
+	<string name="slingmaking_help_description">
+讓你可以製作 (b)彈弓(/b)，它是基礎的狩獵工具。
+	</string> 
+	
+	<string name="food_drying_help_description">
+解鎖 (b)曬肉架(/b)，可以生產 (b)醃肉(/b) 與 (b)魚乾(/b)，在 (b)舊石器時代(/b) 只有這種方式長期保存食物的方式。
+	</string> 
+	
+	<string name="dog_domestication_help_description">
+解鎖 (b)馴狗(/b)。狗會慢慢的加入村莊，並幫助你保護村莊。
+	</string> 
+		
+	<string name="dog_training_help_description">
+解鎖 (b)狗(/b) 的能力，可以幫助人類進行狩獵任務。
+	</string> 	
+	
+	<string name="tanning_help_description">
+解鎖 (b)皮匠(/b) 科技，可以生產 (b)皮革(/b)。
+	</string>
+
+	<string name="spirituality_help_description">
+解鎖 (b)圖騰(/b) 建築，可以幫助村莊保持好心情。
+	</string> 	
+ 
+ <!-- === Mesolithic === -->
+ 
+	<string name="stone_polishing_help_description">
+解鎖 (b)工藝台(/b) 可 (b)打磨(/b) 石器。
+	</string> 
+	
+	<string name="pottery_help_description">
+解鎖 (b)中石器時代(/b)，並能夠 (b)運輸(/b) 與 (b)儲水(/b)。
+這比讓村民每次都自行去喝水來的有效率。
+	</string> 
+
+	<string name="archery_help_description">
+解鎖 (b)製弓(/b) 科技，在 (b)石器時代(/b) 這是最好的狩獵工具。
+	</string> 
+
+	<string name="grain_processing_help_description">
+讓你可以收獲 (b)野生穀物(/b)，磨成 (b)麵粉(/b) 製作 (b)麵包(/b)。
+	</string> 
+
+	<string name="pulse_processing_help_description">
+讓你可以收獲 (b)野生豆類(/b) 並煮熟它們。
+	</string> 
+	
+	<string name="sledgemaking_help_description">
+解決 (b)雪橇(/b) 製作，在早期時代是主要的運輸方式。
+	</string> 
+	
+ <!-- === Neolithic === -->
+ 
+	<string name="underground_mining_help_description">
+讓你可以在礦床上方建造採礦場。採礦場顯著地 (b)增加(/b) 開採 (b)礦床(/b) 所獲得的 (b)資源(/b) 數。
+	</string> 
+		
+	<string name="deep_mining_help_description">
+讓你可以建造深層採礦場，(b)增加(/b) 從 (b)礦坑(/b) 中開採的 (b)資源(/b) 數量。
+	</string> 	
+	
+	<string name="thatching_help_description">
+解鎖 (b)茅草建築(/b)，比皮革建築耐用與先進。
+	</string> 
+
+	<string name="well_digging_help_description">
+讓你可以建造 (b)水井(/b)，比到最近的河川或湖泊打水有效率。
+	</string> 
+	
+	<string name="fortifications_help_description">
+解鎖基礎 (b)防禦設施(/b)，可以用來保護村莊對抗 (b)侵略者(/b) 與 (b)掠食者(/b) 以減少生命損失。
+	</string> 
+	
+	<string name="reinforced_fortifications_help_description">
+解鎖 (b)強化大門(/b) 與 (b)防禦塔(/b)。
+比木造大門更耐用，而 (b)防禦塔(/b) 可以容納更多人。
+	</string> 	
+	
+	<string name="cereal_domestication_help_description">
+讓你可以 (b)種植(/b) 與 (b)收獲穀物(/b)，解鎖 (b)新石器時代(/b)。
+這會明顯的 (b)增加(/b) 每年你可以 (b)餵飽(/b) 的 (b)人口(/b) 數量。
+這是人類歷史上最重要的科技之一。
+	</string> 
+	
+	<string name="pulse_domestication_help_description">
+讓你可以 (b)種植(/b) 與 (b)收獲豆類(/b)。
+豆類通常在夏季收獲，在秋季可以收獲穀物之前，是很好的食物來源。
+	</string>
+	
+	<string name="flax_domestication_help_description">
+讓你可以種植 (b)亞麻(/b)，可用來生產 (b)亞麻布(/b)。
+	</string>
+
+	<string name="weaving_help_description">
+讓你可以使用 (b)亞麻(/b) 與 (b)羊毛(/b) 製作布料與衣服。
+	</string>
+	
+	<string name="netting_help_description">
+讓你可以製作 (b)魚網(/b)。
+	</string>
+
+	<string name="stilting_help_description">
+讓你可以建造 (b)橋(/b)。
+	</string>
+	
+	<string name="megalithism_help_description">
+讓你可以建造 (b)巨石建築(/b)，會增加村莊的 (b)聲望(/b) 並使 (b)心情(/b) 改好。
+	</string>
+	
+	<string name="stone_carving_help_description">
+解鎖 (b)雕像(/b) 建築。
+	</string>
+	
+	<string name="complex_megalithism_help_description">
+解鎖複雜的 (b)巨石建築(/b)，可增加村莊的 (b)聲望(/b) 與改善 (b)心情(/b)。
+	</string>
+	
+ <!-- === Copper Age === -->
+ 
+	<string name="copper_smelting_help_description">
+解鎖 (b)熔爐(/b) 可精煉 (b)銅(/b)，(b)金屬匠工坊(/b) 可製作 (b)銅器(/b)。
+解鎖 (b)銅器時代(/b)。
+	</string>
+	
+	<string name="fruit_tree_domestication_help_description">
+讓你可以種植 (b)果樹(/b)。
+	</string>
+	
+	<string name="rye_domestication_help_description">
+讓你可以種植與收獲黑麥，增加農作物的種類，是推抗 (b)疾病(/b) 的好方法。
+	</string>
+		
+	<string name="wheel_help_description">
+解鎖 (b)拖車(/b)，讓你可以 (b)運輸(/b) 大量的 (b)資源(/b)。
+	</string>
+	
+ <!-- === Bronze Age === -->
+ 
+	<string name="bronze_smelting_help_description">
+解鎖 (b)熔爐(/b) 可生產 (b)青銅(/b) 並能製作 (b)青銅器(/b)。
+解鎖 (b)青銅器時代(/b)。
+	</string>
+	
+	<string name="masonry_help_description">
+解鎖 (b)石造建築(/b) 它們比 (b)泥造(/b) 建築更 (b)耐用(/b) 與先進。
+	</string>
+	
+	<string name="swordmaking_help_description">
+解鎖 (b)劍(/b)，是最效的 (b)有近戰武器(/b)。
+	</string>
+		
+	<string name="shieldmaking_help_description">
+解鎖 (b)盾(/b)，讓你的村民可以格擋攻擊。
+	</string>
+	
+	<string name="composite_archery_help_description">
+解鎖 (b)複合弓(/b)，最有效的 (b)狩獵武器(/b)。
+	</string>
+	
+	<string name="brewing_help_description">
+解鎖釀造 (b)啤酒(/b)，飲用後會使 (b)心情(/b) 變好。
+	</string>
+	
+ <!-- === Iron Age === -->
+ 
+	<string name="iron_smelting_help_description">
+解鎖 (b)鍛鐵爐(/b) 可精煉 (b)鐵(/b)、(b)鐵匠工坊(/b) 可製作 (b)鐵器(/b)。
+解鎖 (b)鐵器時代(/b)。
+	</string>
+	
+	<string name="steelmaking_help_description">
+解鎖 (b)鋼(/b)，在古代時期是 (b)最硬(/b) 與 (b)最耐用(/b) 的原料。
+	</string>
+	
+	<string name="hydropower_help_description">
+解鎖 (b)水車(/b)，可快速生產 (b)麵份(/b)。
+	</string>
+	
+	<string name="baking_help_description">
+解鎖 (b)烤爐(/b)，可快速生產 (b)麵包(/b)。
+	</string>
+
+  <!-- === ANIMALS: categories === -->	
+  
+	<string name="help_domestic_animals_description">
+家畜可以為村莊提供各種好處：(b)保護(/b)、(b)食物(/b)、(b)資源(/b) 與 (b)勞動力(/b)。
+你可以從交易商那 (b)購買(/b) 家畜，或透過 (b)馴服(/b) 野生變動的幼崽。
+動物在冬季需要畜舍，並要提供 (b)水(/b) 與 (b)稻草(/b)。如果沒有 (b)稻草(/b) 可以餵它們 (b)穀物(/b)。
+請注意，(b)狗(/b)，與 (b)驢(/b) 或 (b)馬(/b) 一樣可以用來 (b)運輸(/b)，在冬季不需要畜舍與食物。
+母的成年動物周圍有公的成年或老年動物，就可能會懷孕並 (b)生下(/b) 新動物。
+請注意，村民會自動的 (b)宰殺(/b) 任何 (b)太老(/b) 的家畜，即使它們低於上限。
+	</string>
+	
+	<string name="help_wild_animals_description">
+生存在陸地上的動物，多數都會 (b)避開人類(/b)。
+掠食者會造成威脅，如果它們 (b)非常飢餓(/b) 或它們覺得受到 (b)威脅(/b)。
+	</string>
+  
+  <!-- === Animals === -->
+  
+	<string name="dog_help_description">
+(b)狗(/b) 是第一種被馴服的動物。它們是優秀的 (b)守衛(/b) 並會幫助你攻擊任何入侵者。
+一旦研發了 (b)馴狗(/b) 科技，根據村莊的人口，狗會持續穩定的加入村莊。
+他們吃人類的剩菜，所以它們不需要餵食或畜舍。
+	</string>
+	
+	<string name="goat_help_description">
+(b)山羊(/b) 生產 (b)奶(/b) 並可以宰殺取得肉與皮。
+	</string>	
+	
+	<string name="sheep_help_description">
+(b)綿羊(/b) 生產 (b)羊毛(/b) 並可以宰殺取得肉與皮。
+	</string>		
+	
+	<string name="pig_help_description">
+(b)豬(/b) 是主要的肉類來源。
+	</string>	
+	
+	<string name="cattle_help_description">
+(b)牛(/b) 生產 (b)奶(/b) 並可以宰殺取得肉與皮。
+	</string>		
+	
+	<string name="donkey_help_description">
+(b)驢(/b) 主要用來拉 (b)拖車(/b)，並可以宰殺取得肉與皮。
+	</string>		
+	
+	<string name="horse_help_description">
+(b)馬(/b) 主要用來拉 (b)拖車(/b)，並可以宰殺取得肉與皮。
+	</string>			
+	
+	<string name="herbivore_help_description">
+陸地上漫遊的草食動物吃草為生。它們是主要的 (b)肉類(/b)、(b)生皮(/b) 與 (b)骨頭(/b) 的來源之一。
+健康的 (b)成年(/b) 動物更快也更 (b)強壯(/b)，所以需要更好的工具或更多獵人才能有效獵殺。
+你可以很容易透過 (b)顯示資源(/b) 模式，或左鍵點擊一隻動物來找到一隻獵物。
+	</string>	
+	
+	<string name="large_herbivore_help_description">
+大型草食動物提供大量重要的 (b)資源(/b)。
+然而他們習慣抵禦掠食者，受到攻擊可能會 (b)反擊(/b)。請小心對待它們。
+	</string>		
+	
+	<string name="predator_help_description">
+掠食者是動物，會自然捕食其它動物。大多時候它們會遠離人類，除非飢餓或受到刺激。
+你可以使用 (b)顯示資源(/b) 模式來找到它們，會以橘色或左色高亮突顯。
+	</string>
+
+	<!-- === TRANSPORTS (no categories) === -->
+
+	<string name="sledge_short_description">由人力拉動的搬運工具</string>
+	<string name="sledge_help_description">
+運輸多數基本資源，可使一個成人較容易搬運 (b)重型資源(/b)。
+	</string>
+
+	<string name="cart_short_description">由動物拉動的搬運工具</string>
+	<string name="cart_help_description">
+使你可以搬運 (b)大量(/b) 的 (b)重型資源(/b)。
+拖車可以由 (b)驢(/b) 或 (b)馬(/b) 拉動。當有動物可用時，它會自動地拖運。
+	</string>
+	
+	<string name="rolling_megalith_short_description">專門運送巨石的工具</string>
+	<string name="rolling_megalith_help_description">
+(b)巨石拖車(/b) 的下方放置一些滾動的圓木，然後透過 (b)人力(/b) 拖拉的方式來搬運巨石。
+	</string>
+
+	<!-- === PLANTS === -->
+	<string name="help_related_techs">相關科技</string>
+
+	<string name="help_plants_description">
+生長在野外的植物是 (b)資源(/b) 的重要來源。
+一旦你有了適合的 (b)科技(/b)，你就能自行 (b)栽種(/b) 它們。
+	</string>
+
+	<string name="help_plant_harvesting_season">收獲季節</string>
+	<string name="help_plant_planting_season">種植季節</string>
+	<string name="help_plant_disease_resistance">疾病抗性：(1)%</string>
+	<string name="help_plant_extra_production">(1)% 機率收獲額外的：(2)</string>
+
+	<string name="help_plant_type_cereals">穀類</string>
+	<string name="help_plant_type_berries">漿果</string>
+	<string name="help_plant_type_pulses">豆類</string>
+	<string name="help_plant_type_fruit_trees">果樹</string>
+	<string name="help_plant_type_other">其它</string>
+	
+	<string name="help_einkorn_description">
+耐寒穀類，對疾病有較高 (b)抗性(/b)。
+	</string>
+
+	<string name="help_emmer_description">
+一種高產穀類，會生產更多的 (b)穀物(/b)。
+	</string>
+
+	<string name="help_barley_description">
+一種穀類，對疾病的 (b)抗性(/b) 較其它種類高。
+	</string>
+	
+	<string name="help_flax_description">
+一種生產 (b)亞麻(/b) 的植物。
+	</string>	
+
+	<string name="help_peas_description">
+營養豐富的豆類。
+	</string>	
+	
+	<string name="help_chickpeas_description">
+營養豐富的豆類。
+	</string>	
+	
+	<string name="help_lentils_description">
+營養豐富的豆類。
+	</string>	
+	
+	<string name="help_bitter_vetch_description">
+營養豐富的豆類。
+它可以野生，也可以栽種。
+	</string>
+	
+	<string name="help_strawberry_description">
+野生可收集的季節性漿果。
+	</string>		
+	
+	<string name="help_blackberry_description">
+野生可收集的季節性漿果。
+	</string>		
+	
+	<string name="help_blueberry_description">
+野生可收集的季節性漿果。
+	</string>	
+	
+	<string name="help_raspberry_description">
+野生可收集的季節性漿果。
+	</string>			
+	
+	<string name="help_chestnut_description">
+生產營養豐富的水果。
+	</string>		
+	
+	<string name="help_pear_description">
+生產營養豐富的水果。
+	</string>			
+	
+	<string name="help_service_description">
+生產營養豐富的水果。
+	</string>		
+	
+	<string name="help_cherry_description">
+生產營養豐富的水果。
+	</string>			
+
+	<string name="help_rye_description">
+一種全麥穀類，比多數穀類 (b)澱粉(/b) 質高，並生產大量的 (b)穀物(/b)。
+	</string>
+	
+	<string name="help_oak_description">
+(b)丹寧(/b)，一種製造 (b)皮革(/b) 的必要成份，可以從此種樹上獲得。
+	</string>	
+
+	<string name="help_fir_description">
+(b)丹寧(/b)，一種製造 (b)皮革(/b) 的必要成份，可以從此種樹上獲得。
+	</string>	
+	
+	
+</strings>

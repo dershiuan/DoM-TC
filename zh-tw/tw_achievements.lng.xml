@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<string name="achievement_completed">成就達成：(1)</string>
+
+	<string name="achievement_launch_forth">啟程</string>
+	<string name="achievement_launch_forth_description">執行遊戲</string>
+	
+	<string name="achievement_ancient_apprentice">古代學徒</string>
+	<string name="achievement_ancient_apprentice_description">完成教學</string>
+
+	<string name="achievement_ancient_miner">古代礦工</string>
+	<string name="achievement_ancient_miner_description">在新時器時代，擁有至少 3 個礦物</string>
+
+	<string name="achievement_massive_hunter">英勇的獵人</string>
+	<string name="achievement_massive_hunter_description">狩獵猛瑪象</string>
+	
+	<string name="achievement_the_deer_hunter">獵鹿高手</string>
+	<string name="achievement_the_deer_hunter_description">在一場遊戲中狩獵 100 隻鹿</string>
+
+	<string name="achievement_iron_man">鋼鐵人</string>
+	<string name="achievement_iron_man_description">進入鐵器時代</string>
+
+	<string name="achievement_steel_master">鋼鐵大師</string>
+	<string name="achievement_steel_master_description">在一場遊戲中，生產 10 把鋼劍</string>
+	
+	<string name="achievement_hardened_survivor">堅強的生存者</string>
+	<string name="achievement_hardened_survivor_description">在專家模式中完成 5 個里程碑</string>
+
+	<string name="achievement_completion">圓滿</string>
+	<string name="achievement_completion_description">完成所有里程碑</string>	
+
+	<string name="achievement_ultimate_completion">終極圓滿</string>
+	<string name="achievement_ultimate_completion_description">完成所有專家模式中的里程碑</string>
+
+	<string name="achievement_settlement1">大陸村莊</string>
+	<string name="achievement_settlement1_description">在大陸黎明場景中，人口到達 50</string>
+
+	<string name="achievement_settlement2">北方村莊</string>
+	<string name="achievement_settlement2_description">在北境場景中，人口到達 50</string>
+
+	<string name="achievement_settlement3">勇士村莊</string>
+	<string name="achievement_settlement3_description">在古代勇土場景中，人口到達 50</string>
+
+	<string name="achievement_siege1">圍城開始</string>
+	<string name="achievement_siege1_description">在古代勇士場景中，解鎖青銅器時代</string>
+
+	<string name="achievement_siege2">戰勝圍城</string>
+	<string name="achievement_siege2_description">在古代勇士場景中，解鎖煉鋼科技</string>
+
+	<string name="achievement_prestigious">聲名遠撥</string>
+	<string name="achievement_prestigious_description">到達 1000 聲望</string>
+
+	<string name="achievement_stone_prestige">原始聲望</string>
+	<string name="achievement_stone_prestige_description">在石器時代，到達 900 聲望</string>
+
+	<string name="achievement_megalith_madness">巨石瘋</string>
+	<string name="achievement_megalith_madness_description">在同一場遊戲中，建造一個 巨石柱、石墓、石陣、雕像與石山</string>
+	
+	<string name="achievement_challenger">挑戰者</string>
+	<string name="achievement_challenger_description">完成一個挑戰</string>
+
+	<string name="achievement_hyper_challenger">超級挑戰者</string>
+	<string name="achievement_hyper_challenger_description">完成全部四個挑戰</string>
+
+	<string name="achievement_ultimate_challenger">終極挑戰者</string>
+	<string name="achievement_ultimate_challenger_description">完成全部四個挑戰在困難模式</string>
+
+	<string name="achievement_time">高速發展</string>
+	<string name="achievement_time_description">在 6 小時內，研究完全部科技</string>
+
+	<string name="achievement_overpopulation">人口過剩</string>
+	<string name="achievement_overpopulation_description">村莊擁有 200 人口</string>
+
+	<string name="achievement_paleolithic_overpopulation">舊石器時代的人口過剩</string>
+	<string name="achievement_paleolithic_overpopulation_description">在舊石時代，村莊擁有 100 人口</string>
+
+
+</strings>

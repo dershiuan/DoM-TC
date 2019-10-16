@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="mountain_confluence">山川匯流處</string>
+	<string name="frozen_valley">冰凍的山谷</string>
+	<string name="north_river">北方的河川</string>
+	<string name="twin_lakes">雙湖之間</string>
+	<string name="chill_lake">寒冷的湖邊</string>	
+	
+	<string name="scenario_the_northlands">北境</string>
+	<string name="scenario_the_northlands_subtitle">挑戰</string>
+	<string name="scenario_the_northlands_description">在惡劣的環境中建立並成長你的村莊。</string>
+	<string name="scenario_the_northlands_context">在北方區域，冬季很長，夏季很短以及稀少的資源使生存更加地困難，只有最堅強的人才能成長茁壯。</string>
+
+	<string name="milestone_protein_hoarding">囤積蛋白質</string>
+	<string name="milestone_protein_hoarding_description">累計 5 單位的醃肉與魚乾</string>
+
+	<string name="milestone_northern_survival">北方生存</string>
+	<string name="milestone_northern_survival_description">生存 5 年</string>
+	
+	<string name="milestone_winter_resistance">禦寒</string>
+	<string name="milestone_winter_resistance_description">累計 10 個皮衣</string>
+	
+	<string name="milestone_winter_hunt_v2">冬獵</string>
+	<string name="milestone_winter_hunt_v2_description">狩獵一隻板齒犀與一隻麝牛</string>
+	
+	<string name="milestone_winter_domestication">冬季馴化</string>
+	<string name="milestone_winter_domestication_description">擁有 10 隻綿羊</string>
+	
+	<string name="milestone_extra_warmth">額外的溫暖</string>
+	<string name="milestone_extra_warmth_description">解鎖釀造科技</string>
+
+	<string name="milestone_technocracy">科技聯盟</string>
+	<string name="milestone_technocracy_description">研究全部科技</string>	
+	
+	<string name="milestone_north_settlement">北方村莊</string>
+	<string name="milestone_north_settlement_description">建造 30 個石屋與人口到達 150</string>			
+	
+</strings>

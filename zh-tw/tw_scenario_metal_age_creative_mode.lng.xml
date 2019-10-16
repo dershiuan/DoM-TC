@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="scenario_metal_age_creative_mode">金屬器時代創造模式</string>
+	<string name="scenario_metal_age_creative_mode_short_title">金屬器時代</string>
+	<string name="scenario_metal_age_creative_mode_subtitle">簡單</string>
+	<string name="scenario_metal_age_creative_mode_description">
+創造模式，開始於銅器時代。
+• 資源充足
+• 沒有攻擊
+• 沒有疾病
+• 冬季短
+• 沒有成就
+	</string>
+	<string name="scenario_metal_age_creative_mode_context"></string>
+
+</strings>

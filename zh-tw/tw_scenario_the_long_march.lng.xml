@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="bygone_tales">過去的故事</string>
+
+	<string name="scenario_the_long_march">長征</string>
+	<string name="scenario_the_long_march_subtitle">適中</string>
+	<string name="scenario_the_long_march_description">引導牛群遷移到新地點。</string>
+	<string name="scenario_the_long_march_context">在這漫長的冰河時期，即使是長毛猛瑪象為了食物也需要遷移。</string>
+	
+	<string name="goal_the_long_march_location1">到達河川支流</string>	
+	<string name="goal_the_long_march_location2">到達大湖泊</string>	
+	<string name="goal_the_long_march_location3">到達小湖泊</string>	
+	<string name="goal_the_long_march_location4">到達平原</string>		
+	<string name="goals_hint_the_long_march">每隻猛瑪象都必須活著</string>		
+	
+	<string name="the_long_march_intro_title">長征</string>	
+	<string name="the_long_march_intro">
+在此場景中，你控制了一群 (b)猛瑪象(/b)。
+你可以選取它們，然後下達一些命令：
+• 在 (b)地面 (/b) 上 (b)點擊右鍵(/b)：移動到那裡(雙擊右鍵衝刺)。
+• 在其它的 (b)動物(/b) 身上 (b)點擊右鍵(/b)：攻擊。
+小心獵食者們。
+	</string>		
+	
+	<string name="the_long_march_well_done">做的好！</string>	
+	<string name="the_long_march_completed">你的動物們在長征中活下來了</string>		
+	
+	<string name="the_long_march_failed_title">失敗！</string>	
+	<string name="the_long_march_failed">你的長征隊伍中有動物死亡。</string>			
+</strings>

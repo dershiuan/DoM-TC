@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<string name="twisty_river">蜿蜒的河川</string>
+	<string name="forest_river">森林河邊</string>
+	<string name="river_fork">河川支流</string>
+	<string name="lake_valley">湖邊山谷</string>
+	<string name="mountain_lake">高山湖邊</string>	
+	<string name="merging_streams">河川匯流處</string>
+
+	<string name="scenario_continental_dawn">大陸黎明</string>
+	<string name="scenario_continental_dawn_subtitle">適中</string>
+	<string name="scenario_continental_dawn_description">將你的村莊從舊石器時代發展到鐵器時代。</string>
+	<string name="scenario_continental_dawn_context">大約 12,000 年前，最後一個冰河時期剛剛結束。這使得歐洲大陸的大部分地區更容易居住，人口快速發展並迎來了新石器時代。</string>
+
+	<string name="milestone_hunting_and_gathering">狩獵與採集</string>
+	<string name="milestone_hunting_and_gathering_description">累積收集 3 個生肉與 3 個漿果</string>
+	<string name="milestone_hunting_and_gathering_text">你現在懂了基礎知識</string>
+	
+	<string name="milestone_survival">生存</string>
+	<string name="milestone_survival_description">生存 2 年</string>
+
+	<string name="milestone_humble_beginnings">人類的啟源</string>
+	<string name="milestone_humble_beginnings_description">解鎖中石器時代</string>
+	
+	<string name="milestone_expansion">擴張</string>
+	<string name="milestone_expansion_description">村莊擁有 20 人口</string>
+
+	<string name="milestone_neofarmer">新農夫</string>
+	<string name="milestone_neofarmer_description">解鎖所有新石器時代的奠基作物奠基</string>
+
+	<string name="milestone_megalomania">巨石陣</string>
+	<string name="milestone_megalomania_description">建造巨石陣</string>
+
+	<string name="milestone_animal_control">馴化動物</string>
+	<string name="milestone_animal_control_description">馴服 20 隻動物</string>
+
+	<string name="milestone_metal_alloy">金屬合金</string>
+	<string name="milestone_metal_alloy_description">獲得 1 個青銅</string>
+
+	<string name="milestone_the_riddle_of_steel">鋼鐵之迷</string>
+	<string name="milestone_the_riddle_of_steel_description">獲得 1 個鋼</string>
+
+	<string name="milestone_consolidation">鞏固</string>
+	<string name="milestone_consolidation_description">村莊擁有 100 人口</string>
+
+</strings>

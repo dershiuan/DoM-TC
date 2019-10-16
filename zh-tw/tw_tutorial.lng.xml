@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+
+	<!-- Goals -->
+	<string name="scenario_tutorial">教學</string>
+	
+	<string name="goal_tutorial_move_camera">移動鏡頭，使用 (camera_move_keys) 鍵</string>
+	<string name="goal_tutorial_rotate_camera">旋轉鏡頭，使用 (camera_rotate_keys) 鍵</string>
+	
+	<string name="goal_tutorial_fish">派人去釣魚：選取 (b)河川(/b) 然後點擊 (b)釣魚按鈕(/b)</string>
+	<string name="goal_tutorial_gather_sticks">派人收集 (b)樹枝(/b)</string>
+	<string name="goal_tutorial_gather_flint">派人收集 (b)燧石(/b)</string>
+	<string name="goal_tutorial_wait_for_fish_and_gather">等待村民收獲一個 (b)生魚(/b)、(b)樹枝(/b)與 (b)燧石(/b)</string>
+	
+	<string name="goal_tutorial_fish_work_area">設置一個 (b)釣魚(/b) 工作區</string>
+	<string name="goal_tutorial_sticks_work_area">設置一個 (b)收集樹技(/b) 工作區</string>
+	<string name="goal_tutorial_flint_work_area">設置一個 (b)收集燧石(/b)  工作區</string>
+	<string name="goal_tutorial_berries_work_area">設置一個 (b)採集野生植物(/b) 工作區</string>
+
+	<string name="goal_tutorial_sticks_work_area_set_workers">讓 (b)3 工人(/b) 在工作區 (b)收集樹枝(/b)</string>
+	<string name="goal_tutorial_flint_work_area_set_workers">讓 (b)2 工人(/b) 在工作區 (b)收集燧石(/b)</string>
+	<string name="goal_tutorial_wait_for_fish_and_gather2">等待村民收獲 3 個 (b)樹枝(/b) 與 (b)燧石(/b)。</string>
+	
+	<string name="goal_tutorial_place_crafter">建造一個 (b)手作坊(/b) 建築</string>
+	<string name="goal_tutorial_build_crafter">等待村民建造它</string>	
+	
+	<string name="goal_tutorial_craft_bifaces">命令村民製作 (b)3 個手斧(/b)</string>
+	<string name="goal_tutorial_craft_wooden_spears">命令村民製作 (b)3 木矛(/b)</string>
+	<string name="goal_tutorial_wait_tools">等待全部狩獵工具製作完成</string>
+	
+	<string name="goal_tutorial_primal_vision">(b)開啟顯示資源(/b) 模式，使用選單按鈕或是按下 (primal_vision_key)</string>
+	<string name="goal_tutorial_hunt">派人 (b)狩獵一隻簡單的獵物(/b)，以綠色高亮突顯</string>
+	<string name="goal_tutorial_primal_vision_out">(b)關閉顯示資源(/b) 模式</string>
+	<string name="goal_tutorial_hunt_wait">(b)等待(/b) (b)狩獵(/b) 動物</string>		
+	
+	<string name="goal_tutorial_micro_hunt">派 (b)2 個人(/b) 狩獵相同的動物：(b)選擇(/b) 它們，然後在動物身上 (b)點擊右鍵(/b)</string>		
+
+	<string name="goal_tutorial_place_skins_dryers">設置 (b)2 個曬皮架(/b)</string>		
+	<string name="goal_tutorial_wait_skins">等待村民曬乾 (b)2 個毛皮(/b)</string>		
+	
+	<string name="goal_tutorial_research_food_drying">打開 (b)科技面板(/b) 使用選單或按下 (techs_key)，(n)然後研究 (b)食物乾燥(/b) 科技</string>			
+	<string name="goal_tutorial_place_food_dryer">建造一個 (b)曬肉架(/b)</string>			
+	<string name="goal_tutorial_place_storage_tent">建造一個 (b)小倉庫(/b)</string>			
+	<string name="goal_tutorial_wait_food_drying">等待村民生產一個 (b)醃肉(/b) 與 (b)魚乾(/b)</string>
+
+	<string name="goal_tutorial_continuous_production_bifaces">啟用持續生產 (b)手斧(/b)</string>	
+	<string name="goal_tutorial_continuous_production_wooden_spears">啟用持續生產 (b)木矛(/b)</string>
+	<string name="goal_tutorial_continuous_production_wooden_harpoons">啟用持續生產 (b)木魚叉(/b)</string>	
+	
+	<string name="goals_hint_right_click">你可以透過在物品上 (b)點擊右鍵(/b) 啟用 (b)持續生產(/b)</string>	
+	
+	<string name="goal_tutorial_place_tents">設置 (b)2 兩個帳篷(/b)</string>
+	<string name="goal_tutorial_wait_tents">等待村民建造 (b)帳篷(/b)</string>
+
+	<!-- Messages -->
+	<string name="tutorial_settlement_name">村莊教學</string>
+	<string name="tutorial_well_done">很好！</string>
+	
+	<string name="tutorial_welcome_title">歡迎遊玩 Dawn of Man</string>
+	
+	<string name="tutorial_welcome">
+在遊戲中你控制一群為了 (b)生存(/b) 而奮鬥的 (b)古代人類(/b)。
+此教學會說明基本的遊戲方式，你可以查看 (b)遊戲內幫助(/b) 了解更多細節。
+	</string>
+
+	<string name="tutorial_camera_controls_title">鏡頭控制</string>
+
+	<string name="tutorial_camera_controls">
+Dawn of Man 使用 FPS 風格的鏡頭控制方式。
+使用 (camera_move_keys) 鍵來移動鏡頭。
+使用 (camera_rotate_keys) 鍵來旋轉鏡頭。
+使用 (b)滾輪(/b) 來縮放鏡頭。
+	</string>
+
+	<string name="tutorial_camera_controls_done">
+請注意你在 (b)調整鏡頭(/b) 時，可同時 (b)旋轉與移動(/b) 位置。
+你可以在幫助頁面查看更多的高級控制方式，以及在 (b)設置(/b) 選單 (b)自訂按鍵(/b)。
+	</string>
+
+	<string name="tutorial_fish_title">
+釣魚
+	</string>
+
+	<string name="tutorial_fish">
+村民人需要 (b)食物補給(/b) 以維持生命。
+從(b)河流(/b) 與 (b)湖泊(/b) 中 (b)釣魚(/b) 是一個相對可靠的食物來源。
+派人去釣魚吧，請先選擇河流，然後點擊 (b)釣魚按鈕(/b)。
+	</string>
+
+	<string name="tutorial_fish_done">
+在一般情況下，你可以透過 (b)選取(/b) 物件，來安排村民的任務，像是 (b)樹木(/b)、(b)河流(/b)、(b)動物(/b)、(b)建築(/b) …等，然後在面板中選擇一項任務。
+	</string>
+
+	<string name="tutorial_gather_title">
+原料
+	</string>
+
+	<string name="tutorial_gather">
+下一步，你應該要收集一些基礎的建造與製作原料，像是 (b)樹枝(/b) 與 (b)燧石(/b)。
+	</string>
+
+	<string name="tutorial_gather_done">
+你現在知道如何 (b)分配任務(/b) 給村民。這是一個 (b)細部管理(/b) 它們的好方法。
+	</string>
+
+	<string name="tutorial_work_areas_title">
+工作區
+	</string>
+
+	<string name="tutorial_work_areas">
+太多 (b)細部管理(/b) 容易令人乏味並且是很 (b)沒有效率(/b) 的。
+(b)工作區(/b) 是一種命令村民們持續地執行任務的簡單方式。
+你可以在指定 (b)地點(/b) 後，在一個畫面中調整 (b)資源上限(/b) 與 (b)工人數量(/b)。
+	</string>
+	
+	<string name="tutorial_work_areas_set_workers">
+在預設情況下，一次只會有一個人前往 (b)工作區(/b)，但你可以增加這個數量。
+	</string>	
+	
+	<string name="tutorial_work_areas_done">
+很好，村民現在會持續的收獲資源直到所設定的 (b)資源上限(/b)。
+請注意 (b)漿果(/b) 只能在 (b)夏季(/b) 採集，而其它資源只能在特定季節採集。
+	</string>		
+	
+	<string name="tutorial_tools_title">
+工具
+	</string>
+
+	<string name="tutorial_tools">
+某些任務，像是狩獵、釣魚、解剖、採集或挖礦，只會在村民有對的 (b)工具(/b) 時才執行。
+必須先製作這些工具，然後村民才會使用它們執行任務。
+	</string>	
+	
+	<string name="tutorial_crafting_title">
+工藝台
+	</string>
+
+	<string name="tutorial_build_crafter">
+現在你有了一些原料，讓我們先製作一些 (b)狩獵工具(/b) 給他們。
+在石器時間主要的製作建築是 (b)工藝台(/b)，來建造一個吧，首先選擇主選單下的建造，接著點擊生產，接著點擊工藝台。
+	</string>
+
+	<string name="tutorial_craft_resources">
+要製作工具，先選取 (b)工藝台(/b) 然後點擊工具配方。
+製作任務會加到隊列中，並在村民有空時會製作它。
+讓我們製作一些 (b)木矛(/b) 狩獵動物，以及一些 (b)手斧(/b) 解剖它們。
+	</string>
+
+	<string name="tutorial_craft_resources_done">
+現在我們擁有全部的工具了，我們需要開始狩獵。
+	</string>
+	
+	<string name="tutorial_hunting_title">
+狩獵
+	</string>
+	
+	<string name="tutorial_hunting">
+(b)狩獵(/b) 在石器時代是一件棘手的事。用木棒和石頭殺死一隻大型動物並非易事。
+使用 (b)顯示資源(/b) 較容易找到獵物(綠色高亮突顯)，在你有合適的工具與人力之前，請避開大型動物與肉食性動物。
+要 (b)狩獵動物(/b)，請先選取它，然後點擊 (b)狩獵按鈕(/b).
+	</string>
+	
+	<string name="tutorial_hunting_done">
+一旦獵殺了一隻動物，村民會 (b)解剖(/b) 它並將 (b)資源帶回營地(/b)。
+使用這種方式狩獵，你的村民會根據獵物的難度來決定要派出多少人。
+	</string>	
+	
+	<string name="tutorial_micromanagement_title">細部管理</string>	
+		
+	<string name="tutorial_micromanagement">
+有時，你可能會想要控制村民做更多事。
+你可以這麼作，首先 (b)選取(/b) 一位村民，然後在地面或目標上 (b)點擊右鍵(/b)。
+此方式可讓你 (b)移動村民(/b)，或 (b)分配(/b) 一個或多個 (b)任務(/b)。
+這在遊戲初期，資源與人力有限的情形下進入狩獵時特別有用。
+	</string>
+	
+	<string name="tutorial_micromanagement_done">
+你可以查看 (b)遊戲內幫助(/b)，裡面有更多關於控制村民的方式。
+	</string>	
+	
+	<string name="tutorial_skin_processing_title">毛皮</string>		
+	
+	<string name="tutorial_skin_processing">
+你可以從物動身上收獲 (b)生皮(/b)，他們會用來製作衣服與建造建築。
+(b)生皮(/b) 不能直接使用，你必須先曬乾它們，要進行乾燥，你需要建造一個 (b)曬皮架(/b)。
+	</string>			
+	
+	<string name="tutorial_skin_processing_done">
+請時刻維持 (b)毛皮(/b) 的數量，他們在早期是建築與製作用的原料。
+	</string>
+	
+	<string name="tutorial_knowledge_title">知識</string>				
+	
+	<string name="tutorial_knowledge">
+在遊戲中，當你做下列事情時會獲得 (b)知識點(/b)：狩獵新動物，取得新資源，人口到達一定水平，等等。
+你可以使用它們來 (b)研究新科技(/b)，解鎖新建築、植物或機械。
+	</string>			
+
+	<string name="tutorial_food_drying_title">知識</string>					
+	
+	<string name="tutorial_food_drying">
+(b)食物乾燥(/b) 科技解鎖 (b)曬肉架(/b)，讓你可以處理 (b)生肉(/b) 與 (b)生魚(/b) 變成 (b)醃肉(/b) 與 (b)魚乾(/b)。
+這會使它們有更長的保存時間，可在 (b)冬天(/b) 儲存於安全的地方。
+	</string>			
+	
+	<string name="tutorial_food_drying_done">
+請記得隨時將食物曬乾並將它存在 (b)倉庫(/b) 才可以有最長的保存期。
+	</string>				
+	
+	<string name="tutorial_continuous_production_title">
+持續生產
+	</string>				
+	
+	<string name="tutorial_continuous_production">
+手動生產每個物品是很乏味並且很 (b)沒有效率(/b) 的。	
+你可以在配方上 (b)點擊右鍵(/b) 切換 (b)持續生產(/b)。
+你的村民在達到 (b)資源上限(/b) 前會持續的生產物品。
+	</string>	
+	
+	<string name="tutorial_continuous_production_done">
+你的村民現在會 (b)持續(/b) 生產工具直到所設定的 (b)資源上限(/b)。
+請注意有些配方預設為持續生產。
+	</string>				
+	
+	<string name="tutorial_expansion_title">擴張</string>				
+	
+	<string name="tutorial_expansion">
+如果每個人都吃的好，照顧好，你村莊的 (b)幸福(/b) 與 (b)聲望(/b) 會提高，並且有更多的人會加入村莊。
+當新人加入村莊時，你必須建造足夠的房屋來容納新人口，否則其它人將不會加入。
+	</string>		
+	
+	<string name="tutorial_expansion_done">	
+有新人類加入你的村莊。
+請注意，當村民生小孩時你的村莊人口也會成長，這個機制很重要，當村莊的人口越多時，同時你的生育率也越高。
+	</string>	
+	
+	<string name="tutorial_completed">
+你現在知道了基本的村莊經營方式。請注意遊戲中還有很多其它的機制沒有說明。
+你可以在 (b)載入畫面的提示(/b)，(b)UI 的提示(/b) 或 (b)遊戲內(/b) 幫助中了解更多的細節，其中有全部遊戲概念的說明。
+	</string>	
+	
+</strings>

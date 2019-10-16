@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string name="scenario_the_steppes">草原</string>
+	<string name="scenario_the_steppes_subtitle">困難</string>
+	<string name="scenario_neolithic_village">新石器時代的村莊</string>
+	<string name="scenario_neolithic_village_subtitle">從新石器時代開始</string>
+	<string name="scenario_metal_age_village">金屬器時代的村莊</string>
+	<string name="scenario_metal_age_village_subtitle">金屬器時代測試</string>
+	<string name="scenario_stress_test">壓力測試</string>
+	<string name="scenario_stress_test_subtitle">GPU/CPU 壓力測試</string>
+	<string name="scenario_model_test">模型測試</string>
+	<string name="scenario_model_test_subtitle">使用模型</string>
+	
+	<string name="goal_pending">等待中</string>
+	<string name="goal_completed">完成</string>	
+	
+	<string name="speed_hint">使用按鈕或按下 (timescale8_key) 將遊戲速度設為 8x。</string>	
+</strings>
