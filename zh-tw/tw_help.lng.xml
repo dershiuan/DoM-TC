@@ -172,10 +172,11 @@
 資源上限是一種將工作自動化的有效方式。
 設定一個 (b)資源上限(/b)，然後標記一個配方來持續生產或設置一個工作區：村民會持續的收集或生產資源直到所設定的資源上限為止。
 當資源被消耗低於上限時，村民會回來開始工作。
-你可以設定 3 種上限：
+你可以設定幾種不同的上限：
 (b)無限(/b)。不限制生產，有資源就會持續生產。
 (b)固定數量(/b)。設定一個指定的數量。一旦達到指定數量就會停止生產。
 (b)人口百分比(/b)。依人口的百分比來設定上限。使用百分比有助於避免在人口變化時要經常的調整上限。
+(b)成人百分比(/b)。依成人的百分比來設定上限。這對只有成人才能使用的工具與武器很有用。
 請注意，此上限只會影響工作區或自動製作，如果你明確的下了一個命令，會乎略此上限。
 	</string>
 	
@@ -198,7 +199,7 @@
 	
   <string name="help_workload_title">工作量</string>
   <string name="help_workload_description">
-(b)工作量(/b) 是村莊內的任務數量與總人口的比率。
+(b)工作量(/b) 是村莊內的 (b)任務數量(/b) 與 (b)總人口(/b) 的 (b)比率(/b) (兒童當作半個成人計算)。
 如果要求村民做太多的事情，他們會太累並影響正常工作的優先度。
 確保工作量是合理的，並與人力資源是成比例的。
 你可以使用 (b)任務(/b) 與 (b)活動面板(/b) 來查看村民可以執行多少工作。
@@ -217,6 +218,7 @@
 設置 (b)工作區(/b) 讓多數的 (b)收集(/b) 與 (b)開採(/b) 任務可以自動化。
 在之後你規劃了一個資源存儲區後，村民會持續收集資源直到所設定 (b)資源上限(/b) 為止。
 預設只會有一個人在工作區工作，但是你可以在面板中調整工人數量。
+注意 (b)狩獵(/b) 工作只會對 (b)低危險等級(/b) 動物的產生任務，而有危險的動物仍需手動操作。
   </string>
 	
   <string name="help_foods_title">食物</string>
@@ -255,6 +257,13 @@
 存活機會是亂數的，並基於他們個人的健康狀況。
 	</string>
 	
+		<string name="help_burials_title">墓地</string>
+  <string name="help_burials_description">
+當有人 (b)死亡(/b) 時，村莊中人們的 (b)心情(/b) 會 (b)變差(/b)。
+如果有任何的 (b)墓地(/b) 可用，屍體將會被埋到那裡。這會讓村民有機率去 (b)哀悼(/b) 他們並 (b)恢復(/b) 一些 (b)情緒(/b)。
+墓地 (b)空間有限(/b)，當空間滿了不能埋進更多人時。隨著時間屍體會分解，然後埋葬會慢慢地恢復。
+	</string>
+
 	<string name="help_controls_title">控制</string>	
 	<string name="help_controls_description">
 (b)鏡頭(/b)
@@ -336,9 +345,12 @@
 一旦你取得馴服科技，你可以捕捉動物幼崽來自行繁殖它們。
 	</string>
 
-	<string name="help_transports_title">運輸工具</string>
+	<string name="help_transports_title">輔助工具</string>
 	<string name="help_transports_description">
-運輸工具加快村民 (b)搬運資源(/b) 的速度。(b)巨石拖車(/b) 是特殊的運輸工具。
+村民可使用 (b)輔助工具(/b) 來完成各種工作。
+運輸工具，像是 (b)拖車(/b) 與 (b)雪橇(/b)，使村民 (b)搬運資源(/b) 的速度比他們原本的方式更快。
+(b)巨石(/b) 只能用專門的運輸工具。
+(b)犁(/b) 使你耕作的速度比用手快。
 	</string>
 	
 	
@@ -352,6 +364,11 @@
 	<string name="help_buildable_category_spiritual_description">
 增加村民 (b)心情(/b) 的建築。
 當村民 (b)心情(/b) 變差時，會參觀宗教建築恢復心情。請注意，同一個人不能多次參觀同類的建築，所以建造多個不同類型的宗教建築是很重要的。
+	</string>
+	<string name="help_buildable_category_funerary_description">
+可 (b)埋葬屍體(/b) 的建築。
+當有人死亡時，他們會被埋到附近的墓地，而其他人可以在這些哀悼。這可使村民 (b)恢復情緒(/b)。
+每個墳地的 (b)空間有限(/b)，一旦它滿了無法再裝更多時，裡面的屍體會慢慢分解，空間會慢慢 (b)補充(/b) 然後可以再次埋入屍體。 
 	</string>
 	<string name="help_buildable_category_transport_description">增加運輸效率的建築。</string>
 	
@@ -385,7 +402,13 @@
 在冬季提供飼料與水給 (b)家畜(/b) 的 (b)棚屋(/b)。
 它需要定期維護。
 	</string>
-	
+
+	<string name="stone_stables_short_description">一個更大更耐用，用來飼養物動的地方</string>
+	<string name="stone_stables_help_description">
+給 (b)飼養動物(/b) 冬天可以 (b)躲避(/b) 並餵食與喝水的地方。
+需要定期維護。
+	</string>
+
 	<!-- === Storage === -->
 	
 	<string name="storage_tent_short_description">基礎倉庫</string>
@@ -418,6 +441,13 @@
 糧倉相當耐用，但是需要不時的修改。
 它需要 (b)茅草屋頂(/b) 科技才能建造。
 	</string>
+
+	<string name="staddle_granary_short_description">一個更大更耐用，用來保存食物的建築</string>
+	<string name="staddle_granary_help_description">
+一個架高的建築，用來保持食物乾燥並 (b)盡可能長時間(/b) 保存。  
+它比 (b)糧倉(/b) 更耐用，並能儲存更多食物。
+需要 (b)石製支架(/b) 科技才能建造。
+	</string>
 	
 	<string name="rock_pile_short_description">堆放燧石、石頭或礦物的地方</string>
 	<string name="rock_pile_help_description">
@@ -440,7 +470,7 @@
 	
 	<string name="crafter_short_description">製作工具與衣服的地方</string>
 	<string name="crafter_help_description">
-在 (b)石器時代(/b) 工藝台是主要的生產建築。
+在 (b)石器時代(/b) 手作坊是主要的生產建築。
 在早期時代，村民可以在這製作所有需要的 (b)工具(/b) 與 (b)衣服(/b)。
 使用 (b)自動化生產(/b)(右鍵點擊物品) 與 (b)資源上限(/b) 是個避免每次需要時都要手動製作的好方法。
 	</string>
@@ -504,7 +534,7 @@
 	<string name="workshop_short_description">製作其它工具的地方</string>
 	<string name="workshop_help_description">
 在 (b)銅器時代(/b) 製作工具的地方。
-這建築結合了 (b)金屬匠工坊(/b) 或 (b)鐵匠工坊(/b) 取代了 (b)工藝台(/b)。
+這建築結合了 (b)金屬匠工坊(/b) 或 (b)鐵匠工坊(/b) 取代了 (b)手作坊(/b)。
 	</string>	
 	
 	<!-- === Metallurgy === -->
@@ -556,6 +586,11 @@
 	<string name="blacksmith_help_description">
 製作 (b)鐵器(/b) 與 (b)鋼器(/b 的地方。
 請注意，只能有一個工人在此工作，所以你通常需要建造幾個相同的建築。
+	</string>
+	
+	<string name="armorer_short_description">製作護甲與盾牌的地方。</string>
+	<string name="armorer_help_description">
+一個可以製作多種 (b)護甲(/b) 與 (b)盾牌(/b) 的地方。
 	</string>
 
 	<!-- === Defensive === -->
@@ -609,9 +644,14 @@
 	
 	<!-- === Spiritual === -->
 
+	<string name="burial_mound_short_description">埋葬屍體的地方</string>
+	<string name="burial_mound_help_description">
+用來 (b)埋葬屍體(/b) 的一小塊墓地。
+	</string>
+
 	<string name="skull_pole_short_description">記念死者的建築</string>
 	<string name="skull_pole_help_description">
-記念死者的建築，村民參觀它會使 (b)心情(/b) 變好。
+記念祖先的建築，村民參觀它會使 (b)心情(/b) 變好。
 	</string>
 
 	<string name="totem_short_description">崇尚自然的建築</string>
@@ -626,7 +666,7 @@
 
 	<string name="dolmen_short_description">大型的紀念碑，支撐著更巨大的石頭</string>
 	<string name="dolmen_help_description">
-幾個石柱組成的石陣，有一個或多個石頭放在上面。它會增加村莊的 (b)聲望(/b) 並使村民的 (b)心情(/b) 變好。
+幾個石柱組成的葬禮建築，頂端有一個或多個石頭。它會增加村莊的 (b)聲望(/b)。
 	</string>
 
 	<string name="stone_circle_short_description">終極巨石建築</string>
@@ -644,9 +684,9 @@
 章顯村莊的力量。村民可以用它恢復 (b)心情b)。
 	</string>	
 	
-	<string name="cairn_short_description">一種複雜的巨石藝術</string>
+	<string name="cairn_short_description">複雜的巨石葬禮建築</string>
 	<string name="cairn_help_description">
-用不同大小的石塊所建造的一種複雜巨石藝術。它大大的增加村莊的 (b)聲望(/b) 與增加村民的 (b)心情(/b)。
+用不同大小的石塊所建造的一個複雜的巨石葬禮建築。它大大的增加村莊的 (b)聲望(/b)。
 	</string>
 	
 	
@@ -655,6 +695,13 @@
 	<string name="bridge_help_description">
 可以輕鬆 (b)過河(/b) 的建築
 這對 (b)雪橇(/b) 與 (b)托車(/b) 特別有用，否則他們必須利用最近的淺灘通過。
+	</string>
+
+	<string name="transport_post_short_description">用來停放運輸工具的地方</string>
+	<string name="transport_post_help_description">
+一個用來存放 (b)運輸工具(/b) 與 (b)犁(/b)。
+村民可以將沒在使用的 (b)雪橇(/b) 停放在這裡。
+當任何拉著 (b)拖車(/b) 或 (b)犁(/b) 的動物，閒置時也會自動的來到這裡。
 	</string>	
 
   <!-- === RESOURCES: Categories === -->
@@ -676,7 +723,7 @@
 衣服可以給村民禦寒，增加幸福度與減少戰鬥時的傷害。
 (b)皮衣(/b) 與 (b)羊毛衣(/b) 保護村民免於受凍。讓每個村民都有一件，是 (b)重要(/b) 的事情。
 當天氣變溫暖時，村民們會較喜歡穿 (b)皮衣(/b) 或 (b)亞麻衣(/b)，這些服裝會增加 (b)幸福度(/b) 並在戰鬥中提供輕微的保護。
-確保衣服數量足夠的有效方法是，在 (b)工藝台(/b) 或 (b)製衣工坊(/b) 將衣服設為持續生產並將資源上限設為 100%.
+確保衣服數量足夠的有效方法是，在 (b)手作坊(/b) 或 (b)製衣工坊(/b) 將衣服設為持續生產並將資源上限設為 100%.
 當溫度低到衣服無法保暖時，村民的體溫會開始降低，在這個時候他們會尋找 (b)房屋(/b)，否則會死於 (b)低溫(/b)
 	</string>
 	
@@ -771,6 +818,18 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 	<string name="oval_shield_help_description">
 一種用木頭與鐵製作的大橢圓盾牌。在戰鬥中提供良好的保護。 
 可以使用像是 (b)劍(/b) 或 (b)斧(/b) 的單手武器。
+	</string>
+
+	<string name="leather_armor_short_description">基礎護甲可以提供一些保護</string>
+	<string name="leather_armor_help_description">
+護甲大部分由硬皮製作而成。
+對攻擊提供 (b)合理的保護(/b)。
+	</string>	
+	
+	<string name="mail_armor_short_description">鎖甲提供良好的保護</string>
+	<string name="mail_armor_help_description">
+護甲由大量的鐵環鏈接在一起。
+對攻擊提供 (b)非常良好的保護(/b)。
 	</string>
 
   <!-- === Materials === -->
@@ -1054,13 +1113,21 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 
 	<string name="spirituality_help_description">
 解鎖 (b)圖騰(/b) 建築，可以幫助村莊保持好心情。
-	</string> 	
+	</string>
+	
+	<string name="funerary_rituals_help_description">
+解鎖 (b)墓地(/b) 建築，可以埋葬屍體。
+	</string> 
  
  <!-- === Mesolithic === -->
  
 	<string name="stone_polishing_help_description">
-解鎖 (b)工藝台(/b) 可 (b)打磨(/b) 石器。
-	</string> 
+解鎖 (b)手作坊(/b) 可 (b)打磨(/b) 石器。
+	</string>
+
+	<string name="bone_polishing_help_description">
+解鎖 (b)手作坊(/b) 可 (b)打磨(/b) 骨製工具。
+	</string>
 	
 	<string name="pottery_help_description">
 解鎖 (b)中石器時代(/b)，並能夠 (b)運輸(/b) 與 (b)儲水(/b)。
@@ -1182,9 +1249,21 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 	<string name="swordmaking_help_description">
 解鎖 (b)劍(/b)，是最效的 (b)有近戰武器(/b)。
 	</string>
+
+	<string name="reinforced_shields_help_description">
+解鎖 (b)橢圓形盾牌(/b)，是用金屬強化過的大盾牌。
+	</string>
 		
 	<string name="shieldmaking_help_description">
 解鎖 (b)盾(/b)，讓你的村民可以格擋攻擊。
+	</string>
+
+	<string name="armor_help_description">
+解鎖 (b)皮護甲(/b)，可以吸收一些攻擊傷害。
+	</string>		
+	
+	<string name="mail_help_description">
+解鎖 (b)鎖甲(/b)，可以吸收大量攻擊傷害。
 	</string>
 	
 	<string name="composite_archery_help_description">
@@ -1193,6 +1272,10 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 	
 	<string name="brewing_help_description">
 解鎖釀造 (b)啤酒(/b)，飲用後會使 (b)心情(/b) 變好。
+	</string>
+
+	<string name="plowing_help_description">
+解鎖 (b)犁(/b) 的製作，可以幫助你更有效率的耕作。
 	</string>
 	
  <!-- === Iron Age === -->
@@ -1214,13 +1297,17 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 解鎖 (b)烤爐(/b)，可快速生產 (b)麵包(/b)。
 	</string>
 
+	<string name="staddle_stones_help_description">
+解鎖 (b)高架糧倉(/b) 建築，可以保存更多食物更長時間。
+	</string> 	
+
   <!-- === ANIMALS: categories === -->	
   
 	<string name="help_domestic_animals_description">
 家畜可以為村莊提供各種好處：(b)保護(/b)、(b)食物(/b)、(b)資源(/b) 與 (b)勞動力(/b)。
 你可以從交易商那 (b)購買(/b) 家畜，或透過 (b)馴服(/b) 野生變動的幼崽。
 動物在冬季需要畜舍，並要提供 (b)水(/b) 與 (b)稻草(/b)。如果沒有 (b)稻草(/b) 可以餵它們 (b)穀物(/b)。
-請注意，(b)狗(/b)，與 (b)驢(/b) 或 (b)馬(/b) 一樣可以用來 (b)運輸(/b)，在冬季不需要畜舍與食物。
+請注意，(b)狗(/b)，與  (b)牛(/b)、(b)驢(/b) 或 (b)馬(/b) 一樣可以用來 (b)運輸或犁地(/b)，在冬季不需要畜舍與食物。
 母的成年動物周圍有公的成年或老年動物，就可能會懷孕並 (b)生下(/b) 新動物。
 請注意，村民會自動的 (b)宰殺(/b) 任何 (b)太老(/b) 的家畜，即使它們低於上限。
 	</string>
@@ -1239,32 +1326,38 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 	</string>
 	
 	<string name="goat_help_description">
-(b)山羊(/b) 生產 (b)奶(/b) 並可以宰殺取得肉與皮。
+(b)山羊(/b) 生產 (b)奶(/b) 並可以宰殺取得 (b)肉(/b) 與 (b)皮(/b)。
 	</string>	
 	
 	<string name="sheep_help_description">
-(b)綿羊(/b) 生產 (b)羊毛(/b) 並可以宰殺取得肉與皮。
+(b)綿羊(/b) 生產 (b)羊毛(/b) 並可以宰殺取得 (b)肉(/b) 與 (b)皮(/b)。
 	</string>		
 	
 	<string name="pig_help_description">
-(b)豬(/b) 是主要的肉類來源。
+(b)豬(/b) 是主要的 (b)肉類(/b) 來源。
 	</string>	
 	
 	<string name="cattle_help_description">
-(b)牛(/b) 生產 (b)奶(/b) 並可以宰殺取得肉與皮。
+(b)牛(/b) 是大型的飼養動物，可幫忙完成各式各樣的工作。
+它們是 (b)奶類(/b) 最大的生產來源。
+它們也以被宰殺來取得 (b)肉(/b) 與 (b)皮(/b)。
+另外，(b)成年的(/b) 可以用來犁地，可以大量的減少耕作的時間。
+與其它的較小型的動物相比，像是 (b)山羊(/b) 或 (b)綿羊(/b)，它們在冬季 (b)消耗更多(/b) 食物與水。
 	</string>		
 	
 	<string name="donkey_help_description">
-(b)驢(/b) 主要用來拉 (b)拖車(/b)，並可以宰殺取得肉與皮。
+(b)驢(/b) 主要用來拉 (b)拖車(/b)，並可以宰殺取得 (b)肉(/b) 與 (b)皮(/b)。
+只有 (b)成年的(/b) 驢可以工作，所以當你從野外馴服了一隻動物，你需要等它長大成年後才能用來拉車。
 	</string>		
 	
 	<string name="horse_help_description">
-(b)馬(/b) 主要用來拉 (b)拖車(/b)，並可以宰殺取得肉與皮。
+(b)馬(/b) 主要用來拉 (b)拖車(/b) 與 (b)犁(/b)，並可以宰殺取得 (b)肉(/b) 與 (b)皮(/b)。
+只有 (b)成年的(/b) 馬可以工作，所以當你從野外馴服了一隻動物，你需要等它長大成年後才能用來拉車或犁。
 	</string>			
 	
 	<string name="herbivore_help_description">
 陸地上漫遊的草食動物吃草為生。它們是主要的 (b)肉類(/b)、(b)生皮(/b) 與 (b)骨頭(/b) 的來源之一。
-健康的 (b)成年(/b) 動物更快也更 (b)強壯(/b)，所以需要更好的工具或更多獵人才能有效獵殺。
+健康的 (b)成年的(/b) 動物更快也更 (b)強壯(/b)，所以需要更好的工具或更多獵人才能有效獵殺。
 你可以很容易透過 (b)顯示資源(/b) 模式，或左鍵點擊一隻動物來找到一隻獵物。
 	</string>	
 	
@@ -1288,8 +1381,17 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 	<string name="cart_short_description">由動物拉動的搬運工具</string>
 	<string name="cart_help_description">
 使你可以搬運 (b)大量(/b) 的 (b)重型資源(/b)。
-拖車可以由 (b)驢(/b) 或 (b)馬(/b) 拉動。當有動物可用時，它會自動地拖運。
+拖車可以由 (b)驢(/b) 或 (b)馬(/b) 拉動。
+當有動物可用時，它會自動拉起運輸工具。
 	</string>
+
+	<string name="plow_short_description">用來整理田地準備耕作的工具</string>
+	<string name="plow_help_description">
+一個用來整理田地準備耕作的工具
+可以由 (b)牛(/b) 或 (b)馬(/b) 拉動。
+只有 (b)成年的(/b) 動物可以用來拉犁。
+使用的村民 (b)種植(/b) 作物的速度 (b)更快(/b) 並且不會降低 (b)心情(/b)。
+	</string>	
 	
 	<string name="rolling_megalith_short_description">專門運送巨石的工具</string>
 	<string name="rolling_megalith_help_description">

@@ -59,6 +59,7 @@
 	<string name="structure_roundhouse">石屋</string>
 	<string name="structure_warehouse">大倉庫</string>
 	<string name="structure_granary">糧倉</string>
+	<string name="structure_staddle_granary">架高糧倉</string>
 	<string name="structure_flint_mine">採石場</string>
 	<string name="structure_copper_mine">銅礦場</string>
 	<string name="structure_tin_mine">錫礦場</string>
@@ -66,14 +67,17 @@
 	<string name="structure_deep_iron_mine">深層鐵礦場</string>
 	<string name="structure_workshop">工坊</string>
 	<string name="structure_metalsmith">金屬匠工坊</string>
+	<string name="structure_armorer">防具工坊</string>
 	<string name="structure_blacksmith">鐵匠工坊</string>
 	<string name="structure_charcoal_pit">炭窯</string>
 	<string name="structure_pit_furnace">熔爐</string>
 	<string name="structure_bloomery">鍛鐵爐</string>
 	<string name="structure_totem">圖騰</string>
 	<string name="structure_skull_pole">骷髏柱</string>
+	<string name="structure_burial_mound">墓塚</string>
 	<string name="structure_banner">旗幟</string>
 	<string name="structure_stables">畜舍</string>
+	<string name="structure_stone_stables">石造畜舍</string>
 	<string name="structure_weaver">織布工坊</string>
 	<string name="structure_outfitter">制衣工坊</string>
 	<string name="structure_well">水井</string>
@@ -92,6 +96,7 @@
 	<string name="structure_watermill">水車</string>
 	<string name="structure_oven">烤爐</string>
 	<string name="structure_bridge">橋</string>
+	<string name="structure_transport_post">轉運站</string>
 	<string name="structure_wooden_platform">木平台</string>
 	<string name="structure_reinforced_platform">強化平台</string>
 	
@@ -176,6 +181,8 @@
 	<string name="resource_flint_sickle">石鐮刀</string>
 	<string name="resource_round_shield">圓盾</string>
 	<string name="resource_oval_shield">橢圓盾</string>
+	<string name="resource_leather_armor">皮盔甲</string>
+	<string name="resource_mail_armor">鎖甲</string>
 	<string name="resource_milk">奶</string>
 	<string name="resource_water">水</string>
 	<string name="resource_beer">啤酒</string>
@@ -188,6 +195,7 @@
 	<string name="tech_composite_tools">複合工具</string>
 	<string name="tech_thatching">茅草屋頂</string>
 	<string name="tech_masonry">石製物品</string>
+	<string name="tech_staddle_stones">石製支架</string>
 	<string name="tech_bone_polishing">骨材打磨</string>
 	<string name="tech_stone_polishing">石材打磨</string>
 	<string name="tech_copper_smelting">銅冶煉</string>
@@ -220,6 +228,8 @@
 	<string name="tech_sledgemaking">雪橇製作</string>
 	<string name="tech_stilting">橋梁</string>
 	<string name="tech_wheel">輪子</string>
+	<string name="tech_plowing">犁地</string>
+	<string name="tech_funerary_rituals">葬禮儀式</string>
 	<string name="tech_spirituality">宗教</string>
 	<string name="tech_megalithism">巨石陣</string>
 	<string name="tech_brewing">釀造</string>
@@ -230,7 +240,10 @@
 	<string name="tech_archery">弓箭</string>
 	<string name="tech_fortifications">要塞</string>
 	<string name="tech_swordmaking">鑄劍</string>
-	<string name="tech_shieldmaking">盾片製作</string>
+	<string name="tech_shieldmaking">盾牌製作</string>
+	<string name="tech_armor">盔甲製作</string>
+	<string name="tech_reinforced_shields">強化盾牌</string>
+	<string name="tech_mail">鎖甲</string>
 	<string name="tech_composite_archery">複合弓</string>
 	<string name="tech_reinforced_fortifications">強化要塞</string>
 	
@@ -241,6 +254,7 @@
 	<string name="transport_sledge">雪橇</string>
 	<string name="transport_cart">拖車</string>
 	<string name="transport_rolling_megalith">巨石拖車</string>
+	<string name="transport_plow">犁</string>
 
 	<!-- Misc -->
 	<string name="bank">漁場</string>

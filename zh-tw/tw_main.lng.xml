@@ -26,6 +26,7 @@
 	<string name="action_progress">動作進度</string>
 	<string name="recycle_progress">回收進度</string>
 	<string name="pending_construction_materials">等待原料</string>
+	<string name="burial_capacity">屍體空間剩餘：(1)</string>
 	
 	<!-- Tech confirm texts -->
 	<string name="confirm_research_copper_smelting">
@@ -112,10 +113,10 @@
 	<string name="quick_panel_general">一般</string>
 	<string name="quick_panel_food">食物</string>
 	<string name="quick_panel_resources">資源</string>
-	<string name="quick_panel_grouped_resources">分組資源</string> <!-- Shows all your resources goruped by type -->
+	<string name="quick_panel_grouped_resources">分組資源</string> <!-- Shows all your resources grouped by type -->
 	<string name="quick_panel_defense">防禦</string>
 	<string name="quick_panel_speed">速度</string>
-	<string name="quick_panel_transports">運輸</string> <!-- Show the amount of carts and sledges you have in the town -->
+	<string name="quick_panel_transports">補助工具</string> <!-- Show the amount of carts and sledges you have in the town -->
 	<string name="quick_panel_animals">動物</string>
 	<string name="quick_panel_food_chart">食物圖表</string>
 	<string name="quick_panel_straw_chart">稻草圖表</string>	
@@ -149,13 +150,18 @@
 	<string name="wall_placement_text">點擊並拖動放置牆。使用 (1) 與 (2) 鍵可以更改形狀。</string>
 	<string name="bridge_placement_text">點擊並拖動放置牆。</string>
 	<string name="work_area_placement_text">點擊左鍵放置。(n)使用 (1) 與 (2) 鍵可以更改大小。(n)Shift+click 可放置多個。</string>
+	<string name="combat_position_placement_text">點擊左鍵放置。</string>
 	<string name="place_confirm">確定</string>
 	<string name="place_cancel">取消</string>
 
 	<!-- Temperatures, leave as is -->
 	<string name="celsius">°C</string>
 	<string name="fahrenheit">°F</string>
-
+	<string name="environment_temperature_warm">溫暖</string>
+	<string name="environment_temperature_moderate">適中</string>
+	<string name="environment_temperature_cold">寒冷</string>
+	<string name="environment_temperature_freezing">結凍</string>
+	
 	<!-- Eras -->
 	<string name="era">時代</string>
 	<string name="era_paleolithic">舊石器時代</string>
@@ -174,11 +180,13 @@
 	<string name="knowledge_population">人口達到：(1)</string>
 	<string name="knowledge_animal_population">動物人口達到：(1)</string>
 	<string name="knowledge_first_structure_built">首次建造：(1)</string>
+	<string name="knowledge_first_item_built">首次製作物品：(1)</string>
 	<string name="knowledge_first_raider_killed">首次擊殺侵略者</string>
 	<string name="knowledge_first_resource_produced">首次生產資源：(1)</string>
 	<string name="knowledge_first_animal_hunted">首次狩獵動物：(1)</string>
 	<string name="knowledge_first_resource_acquired">首次取得資源：(1)</string>
 	<string name="knowledge_structure_built">建造建築：(1) x(2)</string>
+	<string name="knowledge_item_built">製作物品：(1) x(2)</string>
 	<string name="knowledge_raider_killed">擊殺侵略者 x(1)</string>
 	<string name="knowledge_resources_produced">生產：(1) x(2)</string>
 	<string name="knowledge_animals_hunted">狩獵：(1) x(2)</string>
@@ -216,6 +224,7 @@
 	<string name="activity">活動</string>
 	<string name="structures">建築</string>
 	<string name="transports">運輸</string>
+	<string name="attachments">輔助工具</string>
 	<string name="megaliths">巨石</string>
 	<string name="work_areas">工作區</string>
 	<string name="active_tasks">活動中任務</string>
@@ -231,6 +240,13 @@
 	<string name="panel_defense">防禦</string>
 	<string name="defense_alert_level">警報等級</string>
 	<string name="defense_gates">門</string>
+	<string name="defense_melee_ratios">Melee combat preference</string>
+	<string name="defense_melee_ratios_tooltip">
+當警報響起時，會有多少比例的人會拿起 (b)近戰武器(/b) 與 (b)盾牌(/b)。
+這是假設有適合的武器可用時，否則他們會拿起任何他們可找到的東西。
+	</string>
+	<string name="defense_melee_ratio_male">男性</string>
+	<string name="defense_melee_ratio_female">女性</string>
 	<string name="task_target_none">無</string>
 	
 	<!-- Knowledge progress, these inticate the number of things killed/hunted/built/acquired -->
@@ -300,6 +316,7 @@
 	<string name="menu_resume">繼續</string>
 	<string name="menu_credits">製作人員</string>
 	<string name="menu_achievements">成就</string>
+	<string name="menu_workshop_uploader">工作坊上傳</string>
 	<string name="menu_stats">統計</string>
 	<string name="stats_you">你的統計</string>
 	<string name="stats_global">全球統計</string>
@@ -321,6 +338,7 @@
 	
 	<!-- Settings -->
 	<string name="resolution">解析度</string>
+	<string name="fullscreen">全螢幕</string>
 
 	<string name="quality">品質</string>
 	<string name="quality_level_low">低</string>
@@ -338,11 +356,13 @@
 
 	<string name="sfx_volume">音效音量</string>
 	<string name="music_volume">音樂音量</string>
+	<string name="ui_volume">介面音量</string>
 	
 	<string name="camera_rotation_mode">相機旋轉模式</string>
 	<string name="camera_rotation_turn">轉動</string>
 	<string name="camera_rotation_orbit">軌道</string>
-
+	<string name="edge_scrolling">邊緣滾動</string>
+	
 	<!-- Ages and Genders-->
 	<string name="gender_male">男性</string>
 	<string name="gender_female">女性</string>		
@@ -414,6 +434,7 @@
 	<string name="attribute_mining">採礦</string>
 	<string name="attribute_harvesting">採集</string>
 	<string name="attribute_blocking">格擋</string>
+	<string name="attribute_armor">護甲</string>
 	
 	<!-- These are for clothing -->
 	<string name="attribute_warmth">保暖</string>							<!-- How warm is this outfit -->
@@ -422,7 +443,8 @@
 	<string name="attribute_bonus_speed">速度：(1)x</string>
 	<string name="attribute_bonus_damage">傷害：(1)</string>
 	<string name="attribute_bonus_temperature">耐寒：(1)</string>
-	<string name="attribute_bonus_blocking">(1)% 機率格擋攻擊。</string>
+	<string name="attribute_bonus_blocking">(1)% 機率格擋攻擊。(n)可格擋 (2) 點傷害。</string>
+	<string name="attribute_bonus_armor">(1)% 機率吸收攻擊。(n)可吸收 (2) 點傷害。</string>
 	<string name="attribute_bonus_style">可升級時代：(1)</string>
 	
 	<string name="attribute_description_butchering">解剖動物提取資源</string>
@@ -432,7 +454,8 @@
 	<string name="attribute_description_woodcutting">砍樹</string>
 	<string name="attribute_description_mining">開採地表資源或礦物</string>
 	<string name="attribute_description_harvesting">採集野生植物或豆類</string>
-	<string name="attribute_description_blocking">防禦攻擊</string>
+	<string name="attribute_description_blocking">格擋攻擊的機率</string>
+	<string name="attribute_description_armor">吸收一些攻擊的傷害</string>
 	<string name="attribute_description_warmth">禦寒</string>
 	<string name="attribute_description_style">這件衣服的風格是：穿著退流行的衣服會減少幸福</string>
 	
@@ -516,10 +539,11 @@
 	<string name="context_action_disable">停用</string>
 	<string name="context_action_megaliths">巨石面板</string>
 	<string name="context_action_work_areas">工作區面板</string>
+	<string name="context_action_place_combat_position">編輯警告的採集區</string>
 
 	<!-- Reasons why context actions can not be done. -->
 	<string name="disabled_reason_invalid_season">只能在 (1) 從事</string>
-	<string name="disabled_reason_requires_tech">需要科技：(1)</string>
+	<string name="disabled_reason_requires_tech">需要科技：(b)(1)(/b)</string>
 	<string name="disabled_no_children_allowed">小孩不能執行任務:(1)</string>
 	<string name="disabled_no_tools_available">沒有工具可以執行動作：(1)</string>
 	<string name="disabled_reason_exhausted">資源耗盡，你需要等資源再生</string>
@@ -554,6 +578,7 @@
 	<string name="buildable_category_defensive">防禦</string>
 	<string name="buildable_category_metallurgy">冶金</string>
 	<string name="buildable_category_spiritual">宗教</string>
+	<string name="buildable_category_funerary">葬禮</string>
 	<string name="buildable_category_transport">運輸</string>
 
 	<!-- Work areas -->
@@ -571,7 +596,7 @@
 	<string name="work_area_mine_ore">採礦</string>
 
 	<!-- Messages -->
-	<!-- Feeel free to reagange the wording to avoid problems with genders i.e. "Last (1) has died" could be "Last animal has died: (1)" -->
+	<!-- Feel free to rearrange the wording to avoid problems with genders i.e. "Last (1) has died" could be "Last animal has died: (1)" -->
 	<string name="message_death_generic">(1) 死亡</string>
 	<string name="message_death_starvation">(1) 餓死了</string>
 	<string name="message_death_dehydration">(1) 渴死了</string>
@@ -630,9 +655,16 @@
 
 	<!-- Tooltips -->
 	<string name="tooltip_population">人口：(1)(n)容量：(2)</string>
+	<string name="tooltip_population_no_space">(b)沒有空間容納更多人。(/b)(n)沒有移民會來此村莊(n)也沒有新生兒。</string>
+	<string name="tooltip_population_space">(b)容納 (1) 人口的空間。(/b)(n)你的人口會增加(n)透過新生兒或移民。</string>
+	<string name="tooltip_workload_balanced">工作量 (b)平衡(/b) ((1))(n)村民會快速完成所有的工作。</string>
+	<string name="tooltip_workload_high">工作量 (b)高(/b) ((1))(n)村民會花較長的時間完成工作。</string>
+	<string name="tooltip_workload_very_high">工作量 (b)非常高(/b) ((1))(n)村民可能無法完成或只完成優先任務。</string>	
 	<string name="tooltip_fireplace">生食可以在這裡烹飪與進食，也可以提供溫暖</string>
 	<string name="tooltip_status_prestige">聲望：(1)</string>
+	<string name="tooltip_burial_capacity">屍體容納最大數：(1)</string>
 	<string name="tooltip_status_morale">恢復心情：(1)</string>
+	<string name="tooltip_max_simultaneous_users">同時可使用人數：(1)</string>
 	<string name="tooltip_status_capacity">此建築可以居住 (1) 人</string>
 	<string name="tooltip_low_stats">此村民的整體狀態很差，他們的工作效率會降低</string>
 	<string name="tooltip_durability">當資源存放在建築中時，可使用 (1) 次</string>
@@ -657,12 +689,20 @@
 	<string name="tooltip_message">點擊左鍵查看。(n)右鍵可以取消。</string>
 	<string name="tooltip_focus_camera">鏡頭查看</string>
 	<string name="tooltip_help">幫助</string>
-	<string name="tooltip_resource_limit_amount">生產上限：(1)，設為 (2) 單位數</string>
-	<string name="tooltip_resource_limit_percentage">生產上限：(1)，設為 (2)% 的人口數</string>
-	<string name="tooltip_resource_limit_infinity">生產上限：(1)，不限制</string>
-	<string name="tooltip_animal_limit_amount">動物上限：(1)，設為 (2)。(n)任何動物超過此限制數量將會自動被宰殺。</string>
-	<string name="tooltip_animal_limit_percentage">動物上限：(1)，設為 (2)% 的動物數量。(n)任何動物超過此限制數量將會自動被宰殺。</string>
-	<string name="tooltip_animal_limit_infinity">動物上限：(1)，設為不限制。(n)只會宰殺很老的動物。</string>
+
+	<string name="tooltip_resource_limit_infinity">(b)(1)(/b) 的生產上限，設為 (b)無限(/b)。</string>
+	<string name="tooltip_resource_limit_amount">(b)(1)(/b) 的生產上限，設為 (b)(2) 單位數(/b)。</string>
+	<string name="tooltip_resource_limit_percentage">(b)(1)(/b) 的生產上限，設為 (b)(2)%(/b) 的 (b)人口數(/b)。</string>
+	<string name="tooltip_resource_limit_adult_percentage">(b)(1)(/b) 的生產上限，設為 (b)(2)% 成人數(/b)。</string>
+
+	<string name="tooltip_animal_limit_infinity">(b)(1)(/b) 的上限，設為 (b)無限(/b)。(n)只有非常老的動物會被宰殺。</string>
+	<string name="tooltip_animal_limit_amount">(1) 的上限，設為 (2)。(n)任何動物超過此限制數量將會自動被宰殺。</string>
+	<string name="tooltip_animal_limit_percentage">(1) 的上限，設為 (2)% 的動物數量。(n)任何動物超過此限制數量將會自動被宰殺。</string>
+	<string name="tooltip_animal_limit_adult_percentage">(1) 的上限，設為 (b)(2)% 成年牲口數(/b)。(n)任何動物超過此限制數量將會自動被宰殺。</string>
+
+	<string name="tooltip_limit_extra_line_percentage">目前村莊有 (b)(1) 人(/b)，在此限制下的有效數量為 (b)(2) 單位數(/b)。</string>
+	<string name="tooltip_limit_extra_line_adult_percentage">目前村莊有 (b)(1) 成人(/b)，在此限制下的有效數量為 (b)(2) 單位數(/b)。</string>
+	
 	<string name="tooltip_work_area_max_people">在此區域工作的最高人數</string>
 	<string name="tooltip_work_area_max_tasks">在此區域同時存在的最高任務數</string>
 	<string name="tooltip_task">點擊右鍵取消任務。</string>
@@ -687,7 +727,6 @@
 	<string name="tooltip_techs_unlockable">新科技可解鎖</string>
 	<string name="tooltip_total_population">總人口</string>
 	<string name="tooltip_housing">總居住空間。(n)當有新人口加入村莊時，你需要提供居住空間給他們。</string>
-	<string name="tooltip_no_housing">人類的居住空間不足，(n)你的人口將不會增加。</string>
 	<string name="tooltip_animal_count">動物</string>
 	<string name="tooltip_sheltering_animals">需要畜舍的動物</string>
 	<string name="tooltip_animal_capacity">總畜舍空間</string>
@@ -700,14 +739,21 @@
 	<string name="tooltip_available_soon">快可使用</string>
 	<string name="tooltip_requires_milestones">你必須解鎖 (1) 里程碑才能遊玩此場景。(n)透過遊玩自由場景解鎖里程碑。</string>
 	<string name="tooltip_requires_milestones_short">需要 (1) 里程碑</string>
-	<string name="tooltip_workload">村莊內工作量與人口量的比率。試著將其維持在 150% 以下。</string>
+	<string name="tooltip_workload">村莊內 (b)工作量(/b) 與 (b)人口(/b) 的 (b)比率(/b)。(n)試著將其維持在 (b)150% 以下(/b)，否則工作可以無法被正確的完成。</string>
 	<string name="tooltip_retaliates">此動物受到攻擊時會反擊。</string>
+	<string name="tooltip_transport_animal">此動物可以用來拉車。</string>
+	<string name="tooltip_work_animal">此動物可以用來犁地。</string>
 	<string name="tooltip_draught">此動物可以用來拉車。</string>
 	<string name="tooltip_predator">此動物會攻擊人類。</string>
 	<string name="tooltip_requires_shelter">此動物在冬季需要畜舍。</string>
 	<string name="tooltip_knowledge_earned">狩獵此動物可以獲得 (1) 知識點</string>
 	<string name="tooltip_storage_restrictions">可存放 (1)</string>
-
+	<string name="tooltip_attachment_restrictions_structure">(b)(1)(/b) 可以加裝到此結構</string>
+	<string name="tooltip_attachment_restrictions">(b)(1)(/b) 可加裝到此物品</string>
+	<string name="tooltip_attachment_restrictions_part2">(b)點擊(/b) 更改選擇。(n)(b)Shift + 點擊(/b) 來更改全域設定。</string>
+	<string name="tooltip_unpowered_transport">沒有 (b)成人(/b) (b)驢子(/b) 或 (b)馬(/b) 可以拉此運作工具</string>
+	<string name="tooltip_unpowered_work">沒有 (b)成人(/b) (b)牛(/b) 或 (b)馬(/b) 可以來拉這個犁</string>
+	
 	<!-- Toasts -->
 	<string name="toast_screenshot_taken">截圖</string>
 	<string name="toast_game_saved">遊戲已存檔</string>
@@ -722,6 +768,7 @@
 	<string name="description_recycling">回收</string>
 	<string name="description_sheltering">躲避</string>
 	<string name="description_animal_sheltering">躲避</string>
+	<string name="description_animal_plowing">犁地</string>
 	<string name="description_attacking_ranged">攻擊 (1)</string>
 	<string name="description_attacking_melee">攻擊 (1)</string>
 	<string name="description_building">建造 (1)</string>
@@ -749,6 +796,7 @@
 	<string name="description_cutting_down">砍倒</string>
 	<string name="description_harvesting">收獲</string>
 	<string name="description_planting">種植 (1)</string>
+	<string name="description_plowing">種植 (1)</string>
 	<string name="description_recovering_morale">恢復心情</string>
 	<string name="description_taming">馴服</string>
 	<string name="description_slaughtering">宰殺 (1)</string>
@@ -762,6 +810,7 @@
 	<string name="description_falling">墮落</string>
 	<string name="description_celebrating">慶祝</string>
 	<string name="description_pulling">拉車</string>
+	<string name="description_pulling_plow">拉犁</string>
 	<string name="description_wandering">漫遊</string>
 	<string name="description_following">追隨</string>
 	<string name="description_standing_platform">站上平台</string>

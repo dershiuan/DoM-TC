@@ -172,10 +172,11 @@ The fertility of your people also depends on your (b)welfare(/b) level.
 Resource Limits are a powerful way to automate work in your settlement.
 You can set a (b)resource limit(/b), then mark a recipe for continuous production or place a work area: your people will keep on collecting or producing that resource until the limit is reached. 
 When resources are consumed and the amounts fall below the limit again, your people will go back to work.
-You can set any limit to 3 types of values:
+You can set any limit to several types of values:
 (b)Infinity(/b). There's no limit to production, it will continue as long as there are materials available.
-(b)Fixed amount(/b). Sets a limit defined by a specific number of units. Production stops once the number of units of that particular resource reaches the value.
-(b)Population percentage(/b). Sets a limit defined by a percentage of the current population. Setting a percentage limit is useful to avoid having to constantly adjust the limits as the population changes.
+(b)Fixed amount(/b). Limit defined by a specific number of units. Production stops once the number of units of that particular resource reaches the value.
+(b)Population percentage(/b). Limit defined as a proportion of the current population. Setting a percentage limit is useful to avoid having to constantly adjust the limits as the population changes.
+(b)Adult percentage(/b). Limit defined as a proportion of the current number of adults. This is useful for tools and weapons that only adults can use.
 Note that limits only affect work areas and automatic crafting, if you explicitly give an order, the limit is ignored.
 	</string>
 	
@@ -198,7 +199,7 @@ Your people will try to eat the food that is going to decay sooner in order to p
 	
   <string name="help_workload_title">Workload</string>
   <string name="help_workload_description">
-The (b)workload(/b) of your settlement is the ratio between the amount of tasks your people are trying to do, and the total amount of people.
+The (b)workload(/b) of your settlement is the (b)ratio(/b) between the amount of (b)tasks(/b) your people are trying to do, and the total (b)amount of people(/b) (children count as half an adult in these calculations).
 If you ask your people to do too many things at once, they will be overworked, and will have trouble prioritizing the right tasks.
 It is your job do make sure the amount of work to do is reasonable and proportional to the manpower available.
 You can use the (b)tasks(/b) and (b)activity panels(/b) to see what your people are up to and how many of them are available to work.
@@ -217,6 +218,7 @@ Depending on the age of your population they are able to perform different tasks
 Setting (b)work areas(/b) allows you to automate many of the (b)collection(/b) and (b)mining(/b) tasks in your settlement.
 After you place an area for a given resource, people will keep collecting the resource within that area until the (b)resource limit(/b) is reached.
 By default only one person at a time will work in a particular area, but you can increase their number in the selection panel.
+Note that (b)hunting(/b) work areas will only generate tasks for animals of (b)low danger level(/b), dangerous animals have to be hunted manually.
   </string>
 	
   <string name="help_foods_title">Foods</string>
@@ -254,6 +256,13 @@ These are triggered from (b)going hungry(/b) repeatedly, or (b)sustaining injuri
 When a person has a condition it's health will decrease for a given amount of time, if it reaches zero the person will die.
 Survival chances are partly random and party based on how healthy the individual is.
 	</string>
+	
+	<string name="help_burials_title">Burials</string>
+  <string name="help_burials_description">
+When someone (b)dies(/b) the (b)morale(/b) of the people in your settlement (b)goes down(/b).
+If there are any (b)burial structures(/b) available, your dead will be taken there. This will give your people a chance to (b)mourn(/b) them and (b)recover(/b) some of the lost (b)morale(/b).
+Funerary structures have a (b)limited capacity(/b), when the structure is full no more people can be buried in it. Over time bodies decompose and the burial capacity of the structure is slowly restored.
+	</string>	
 	
 	<string name="help_controls_title">Controls</string>	
 	<string name="help_controls_description">
@@ -336,9 +345,12 @@ In (b)winter(/b) most animals will hibernate or migrate to warmer climates, so t
 Once you research the right domestication techs, you can capture young animals in order to breed them yourself.
 	</string>
 
-	<string name="help_transports_title">Transports</string>
+	<string name="help_transports_title">Attachments</string>
 	<string name="help_transports_description">
-Transports allow people to (b)carry resources(/b) much faster than they would otherwise do. Specialized transports are also required to move (b)Megaliths(/b).
+(b)Attachments(/b) are used by your people to accomplish a variety of tasks.
+Transports, like (b)Carts(/b) and (b)Sledges(/b) allow people to (b)carry resources(/b) much faster than they would otherwise do.
+(b)Megaliths(/b) can only be moved using specialized transports.
+(b)Plows(/b) allow you to plant crops much faster than doing it by hand.
 	</string>
 	
 	
@@ -353,6 +365,11 @@ Transports allow people to (b)carry resources(/b) much faster than they would ot
 Structures that improve your people's (b)Morale(/b).
 When low on (b)Morale(/b), your people will visit a spiritual structure in order to recover it. Note that a person can not use the same type of structure too often, so it is important to build variety of these.
 	</string>
+	<string name="help_buildable_category_funerary_description">
+Structures where you can (b)bury your dead(/b).
+When someone dies, they will get taken to the nearest burial structure, where they can be mourned. This will allow your people to (b)recover morale(/b).
+Each funerary structure has (b)limited capacity(/b), once it's full it can't be used anymore, but as bodies slowly decompose, the structure capacity (b)replenishes(/b) and you can bury people in it again. 
+	</string>	
 	<string name="help_buildable_category_transport_description">Structures that improve transport efficiency.</string>
 	
   <!-- === Structures === -->
@@ -386,6 +403,12 @@ A place for (b)domestic animals(/b) to (b)shelter(/b) in winter and be fed and w
 It needs periodic maintenance.
 	</string>
 	
+	<string name="stone_stables_short_description">A larger and more durable place to keep domestic animals</string>
+	<string name="stone_stables_help_description">
+A place for (b)domestic animals(/b) to (b)shelter(/b) in winter and be fed and watered.
+It needs periodic maintenance.
+	</string>	
+	
 	<!-- === Storage === -->
 	
 	<string name="storage_tent_short_description">A basic storage structure</string>
@@ -418,6 +441,13 @@ A raised hut, purpose built to keep food dry and preserved for (b)as long as pos
 Granaries are reasonably durable, but they need repairing from time to time.
 Requires the (b)Thatching(/b) tech in order to be built.
 	</string>
+	
+	<string name="staddle_granary_short_description">A larger and more durable structure to preserve food</string>
+	<string name="staddle_granary_help_description">
+A raised structure, built to keep food dry and preserved for (b)as long as possible(/b).  
+It's more durable than a (b)Granary(/b) and can store more food.
+Requires the (b)Staddle Stones(/b) tech in order to be built.
+	</string>	
 	
 	<string name="rock_pile_short_description">A place to store Flint, Stone or Ores</string>
 	<string name="rock_pile_help_description">
@@ -503,7 +533,7 @@ A place where to efficiently bake large quantities of (b)Bread(/b).
 	
 	<string name="workshop_short_description">A place to make miscellaneous tools</string>
 	<string name="workshop_help_description">
-A place to make tools from the (b)Copper Age(/b) onwards.
+A place to make tools from the (b)Copper Age(/b) onward.
 This structure in combination with the (b)Metalsmith(/b) or (b)Blacksmith(/b) serves as replacement for the (b)Crafter(/b).
 	</string>	
 	
@@ -557,6 +587,11 @@ An advanced furnace, where very high temperatures can be reached in order to sme
 A place to create (b)Iron(/b) and (b)Steel(/b) tools and weapons.
 Note that only one person can work in it at a time, so you will usually need a few of these.
 	</string>
+	
+	<string name="armorer_short_description">A place to make armor and shields</string>
+	<string name="armorer_help_description">
+A place to make (b)armor(/b) and (b)shields(/b) of various types.
+	</string>
 
 	<!-- === Defensive === -->
 
@@ -598,7 +633,7 @@ A gate (b)reinforced(/b) with (b)metal(/b) in order to increase its resistance a
 A structure for your people to shoot at enemies from (b)inside(/b) the settlement's walls.
 Warriors on a platform have (b)extra protection(/b) from incoming projectiles.
 Needs to be placed next to a (b)Palisade(/b) or (b)Wall(/b) on the inner side.
-This structure can hold more people and is more resistent than the (b)Wooden Platform(/b).
+This structure can hold more people and is more resistant than the (b)Wooden Platform(/b).
 	</string>		
 
 	<string name="guard_tower_short_description">A reinforced defense tower</string>
@@ -609,9 +644,14 @@ Guard Towers require periodic repairs and maintenance.
 	
 	<!-- === Spiritual === -->
 
-	<string name="skull_pole_short_description">A structure in memory of the dead</string>
+	<string name="burial_mound_short_description">A place to bury your dead</string>
+	<string name="burial_mound_help_description">
+A small tomb where to (b)bury your dead(/b).
+	</string>	
+	
+	<string name="skull_pole_short_description">A structure in memory of the fallen ancestors</string>
 	<string name="skull_pole_help_description">
-A structure in memory of the dead that your people can visit in order to recover (b)Morale(/b).
+A structure in memory of the fallen ancestors, that your people can visit in order to recover (b)Morale(/b).
 	</string>
 
 	<string name="totem_short_description">A structure to honor nature</string>
@@ -626,7 +666,7 @@ A large standing (b)Megalith(/b). Your people can use it to recover (b)Morale(/b
 
 	<string name="dolmen_short_description">A large monument made of several stones supporting a bigger rock</string>
 	<string name="dolmen_help_description">
-A stone chamber consisting of several supporting pillars, and one or more stones placed on top. It increases your settlement's (b)prestige(/b) and boosts people's (b)Morale(/b).
+A funerary chamber consisting of several supporting pillars, and one or more stones placed on top. It increases your settlement's (b)prestige(/b).
 	</string>
 
 	<string name="stone_circle_short_description">A structure made of several megaliths arranged in a circle</string>
@@ -644,9 +684,9 @@ A carved standing (b)Megalith(/b). Your people can use it to recover (b)Morale(/
 A symbol of a settlement's power. Your people can use it to recover (b)Morale(/b).
 	</string>		
 	
-	<string name="cairn_short_description">A megalithic complex</string>
+	<string name="cairn_short_description">A megalithic funerary complex</string>
 	<string name="cairn_help_description">
-A megalithic complex built with rocks of various sizes. It greatly increases your settlement's (b)prestige(/b) and provides a boost for your people's (b)Morale(/b).
+A megalithic funerary complex built with rocks of various sizes. It greatly increases your settlement's (b)prestige(/b).
 	</string>	
 	
 	
@@ -656,6 +696,13 @@ A megalithic complex built with rocks of various sizes. It greatly increases you
 A structure in order to ease the (b)crossing of rivers(/b).
 This is especially useful for (b)Sledges(/b) and (b)Carts(/b) as otherwise they have to cross via the nearest ford.
 	</string>	
+	
+	<string name="transport_post_short_description">A place to leave transports</string>
+	<string name="transport_post_help_description">
+A place to leave (b)transports(/b) and (b)Plows(/b).
+Your people will carry (b)Sledges(/b) here when they are not in use.
+Any animals that are pulling (b)Carts(/b) or (b)Plows(/b) will automatically come here when idle.
+	</string>		
 
   <!-- === RESOURCES: Categories === -->
   
@@ -772,6 +819,18 @@ Can be used with one handed weapons like (b)Swords(/b) or (b)Axes(/b).
 A large oval shield made of wood with an Iron core. Offers good protection in combat. 
 Can be used with one handed weapons like (b)Swords(/b) or (b)Axes(/b).
 	</string>		
+	
+	<string name="leather_armor_short_description">Basic armor that provides some protection</string>
+	<string name="leather_armor_help_description">
+Armor made mostly of hardened leather.
+Offers (b)reasonable protection(/b) against attacks.
+	</string>	
+	
+	<string name="mail_armor_short_description">Large Shield that provides good protection</string>
+	<string name="mail_armor_help_description">
+Armor made of iron rings chained together.
+Offers (b)very good protection(/b) against attacks.
+	</string>			
 
   <!-- === Materials === -->
   
@@ -812,7 +871,7 @@ A dry skin, used for (b)crafting(/b) tools or (b)building(/b) structures.
 	
 	<string name="leather_short_description">A skin which has been tanned to make it more durable</string>	
 	<string name="leather_help_description">
-A (b)skin(/b) which has been (b)tanned(/b) to make it more (b)durable(/b). Leather can be used used to craft clothing and tools or construct structures.
+A (b)skin(/b) which has been (b)tanned(/b) to make it more (b)durable(/b). Leather can be used to craft clothing and tools or construct structures.
 	</string>
 	
 	<string name="tannin_help_description">
@@ -832,7 +891,7 @@ A textile fiber obtained from the hair of sheep, used to make (b)warm clothing(/
 	</string>
 	
 	<string name="linen_help_description">
-A textile fiber obtained from linen, used to make clothing and other resources.
+A textile fiber obtained from flax plants, used to make clothing and other resources.
 	</string>
 
 	<string name="wool_cloth_short_description">Cloth used to make warm outfits</string>	
@@ -1055,12 +1114,20 @@ Unlocks the (b)Tanner(/b), where you can produce (b)Leather(/b).
 	<string name="spirituality_help_description">
 Unlocks the construction of the (b)Totem(/b) structure, which helps with keeping morale high in the settlement.
 	</string> 	
+	
+	<string name="funerary_rituals_help_description">
+Unlocks the construction of the (b)Burial Mound(/b) structure, where you can bury your dead.
+	</string> 		
  
  <!-- === Mesolithic === -->
  
 	<string name="stone_polishing_help_description">
 Unlocks (b)polished(/b) stone tools in the (b)Crafter(/b).
 	</string> 
+	
+	<string name="bone_polishing_help_description">
+Unlocks (b)polished(/b) bone tools in the (b)Crafter(/b).
+	</string> 	
 	
 	<string name="pottery_help_description">
 Unlocks the (b)Mesolithic(/b) era, and also the ability to (b)transport(/b) and (b)store Water(/b). 
@@ -1183,9 +1250,21 @@ Unlocks (b)Stone(/b) structures that are in general more (b)durable(/b) and adva
 Unlocks (b)Swords(/b), which are the most (b)effective melee weapon(/b).
 	</string>
 	
+	<string name="reinforced_shields_help_description">
+Unlocks (b)Oval Shields(/b), which are larger shields reinforced with metal.
+	</string>	
+	
 	<string name="shieldmaking_help_description">
 Unlocks (b)Shields(/b), which allow your people to block attacks.
-	</string>	
+	</string>		
+	
+	<string name="armor_help_description">
+Unlocks (b)Leather Armor(/b), which aborbs some of the damage dealt by attacks.
+	</string>		
+	
+	<string name="mail_help_description">
+Unlocks (b)Mail Armor(/b), which aborbs quite a bit of the damage dealt by attacks.
+	</string>			
 	
 	<string name="composite_archery_help_description">
 Unlocks (b)Composite Bows(/b), which are the most effective (b)hunting weapon(/b).
@@ -1193,6 +1272,10 @@ Unlocks (b)Composite Bows(/b), which are the most effective (b)hunting weapon(/b
 	
 	<string name="brewing_help_description">
 Unlocks the production of (b)Beer(/b), which can help boost (b)Morale(/b) in the settlement.
+	</string>
+	
+	<string name="plowing_help_description">
+Unlocks the construction of (b)Plows(/b) which will allow you to plant crops a lot more efficiently.
 	</string>
 	
  <!-- === Iron Age === -->
@@ -1213,6 +1296,10 @@ Unlocks the construction of (b)Watermills(/b), which can greatly speed up the pr
 	<string name="baking_help_description">
 Unlocks the construction of (b)Ovens(/b), which can greatly speed up the production of (b)Bread(/b).
 	</string>
+	
+	<string name="staddle_stones_help_description">
+Unlocks the construction of the (b)Staddle Granary(/b) structure, where you can store more food for longer.
+	</string> 		
 
   <!-- === ANIMALS: categories === -->	
   
@@ -1220,7 +1307,7 @@ Unlocks the construction of (b)Ovens(/b), which can greatly speed up the product
 Domestic animals provide a variety of benefits to your settlement: (b)protection(/b), (b)food(/b), (b)resources(/b) and (b)muscle power(/b).
 You can obtain domestic animals by (b)purchasing(/b) them from traders, or by (b)domesticating young(/b) individuals of the equivalent wild variant.
 Animals need to be sheltered in winter, and be provided with (b)Water(/b) and (b)Straw(/b). If there is no (b)Straw(/b) available, you can feed them with (b)Grain(/b).
-Note that (b)Dogs(/b), as well as (b)Donkeys(/b) or (b)Horses(/b) that are (b)attached to transports(/b), don't need shelter or food in winter.
+Note that (b)Dogs(/b), as well as (b)Cattle(/b), (b)Donkeys(/b) or (b)Horses(/b) that are (b)attached to transports or Plows(/b), don't need shelter or food in winter.
 Adult females will get pregnant and give (b)birth(/b) to new animals as long as there is an adult or old male around.
 Note that your people will automatically (b)slaughter(/b) any domestic animals that are (b)too old(/b), even if they are below the limit.
 	</string>
@@ -1239,27 +1326,33 @@ They eat the leftovers from the humans, so they don't require to be fed or given
 	</string>
 	
 	<string name="goat_help_description">
-(b)Goats(/b) produce (b)Milk(/b) and can also be slaughtered to obtain meat and skins.
+(b)Goats(/b) produce (b)Milk(/b) and can also be slaughtered to obtain (b)Meat(/b) and (b)Skins(/b).
 	</string>	
 	
 	<string name="sheep_help_description">
-(b)Sheep(/b) produce (b)Wool(/b) and can also be slaughtered to obtain meat and skins.
+(b)Sheep(/b) produce (b)Wool(/b) and can also be slaughtered to obtain (b)Meat(/b) and (b)Skins(/b).
 	</string>		
 	
 	<string name="pig_help_description">
-(b)Pigs(/b) are primarily a source of meat.
+(b)Pigs(/b) are primarily a source of (b)Meat(/b).
 	</string>	
 	
 	<string name="cattle_help_description">
-(b)Cattle(/b) produce (b)Milk(/b) and can also be slaughtered to obtain meat and skins.
+(b)Cattle(/b) are a large domestic animal, that can be used to accomplish a variety of tasks.
+They are the largest producer of (b)Milk(/b).
+They can be slaughtered to obtain to obtain (b)Meat(/b) and (b)Skins(/b).
+Additionally, (b)adults(/b) can also be used to pull plows, which greatly reduces the time it takes to plant crops.
+They (b)consume more(/b) food and water in winter when compared to smaller animals like (b)Goats(/b) or (b)Sheep(/b).
 	</string>		
 	
 	<string name="donkey_help_description">
-(b)Donkeys(/b) are used primarily to pull (b)Carts(/b), but they can also be slaughtered to obtain meat.
-	</string>		
-	
+(b)Donkeys(/b) are used primarily to pull (b)Carts(/b), but they can also be slaughtered to obtain (b)Meat(/b) and (b)Skins(/b).
+Only (b)adult(/b) donkeys can work, so when you domesticate an animal from the wild, you need to wait for it to become an adult before it can be attached it to a cart.
+	</string>
+
 	<string name="horse_help_description">
-(b)Horses(/b) are used primarily to pull (b)Carts(/b), but they can also be slaughtered to obtain meat.
+(b)Horses(/b) are used primarily to pull (b)Carts(/b) and (b)Plows(/b), but they can also be slaughtered to obtain (b)Meat(/b) and (b)Skins(/b).
+Only (b)adult(/b) horses can work, so when you domesticate an animal from the wild, you need to wait for it to become an adult before it can be attached it to a cart or plow.
 	</string>			
 	
 	<string name="herbivore_help_description">
@@ -1288,8 +1381,18 @@ The most basic form of transport, it allows one adult to move around (b)heavy re
 	<string name="cart_short_description">A wheeled transport pulled by animals</string>
 	<string name="cart_help_description">
 Allows your people to move (b)large quantities(/b) of (b)heavy resources(/b) around.
-Carts are pulled by (b)Donkeys(/b) or (b)Horses(/b). When an animal is available, it will get attached to the transport automatically.
+Carts are pulled by (b)Donkeys(/b) or (b)Horses(/b). 
+Only (b)adult(/b) animals can be used to pull carts.
+When an animal is available, it will get attached to the transport automatically.
 	</string>
+	
+	<string name="plow_short_description">A tool to prepare the fields to plant crops</string>
+	<string name="plow_help_description">
+An implement to prepare the fields to plant crops. 
+Can be pulled by (b)Cattle(/b) or (b)Horses(/b).
+Only (b)adult(/b) animals can be used to pull plows.
+Allows your people to (b)plant(/b) crops much (b)faster(/b) and without a penalty to (b)morale(/b).
+	</string>	
 	
 	<string name="rolling_megalith_short_description">A specialized transport to move megaliths</string>
 	<string name="rolling_megalith_help_description">
