@@ -99,6 +99,7 @@
 	<string name="structure_transport_post">轉運站</string>
 	<string name="structure_wooden_platform">木平台</string>
 	<string name="structure_reinforced_platform">強化平台</string>
+	<string name="structure_cheesemaker">起司工坊</string>
 	
 
 	<!-- Resources -->
@@ -185,6 +186,7 @@
 	<string name="resource_mail_armor">鎖甲</string>
 	<string name="resource_milk">奶</string>
 	<string name="resource_water">水</string>
+	<string name="resource_cheese">起司</string>
 	<string name="resource_beer">啤酒</string>
 	<string name="resource_wool">羊毛</string>
 	<string name="resource_wool_cloth">羊毛布</string>

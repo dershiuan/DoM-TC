@@ -207,7 +207,7 @@
 	<string name="plant">植物</string>
 	<string name="place_work_area">設置工作區</string>
 	<string name="manage">管理</string>
-	<string name="primal_vision">顯示資源</string>
+	<string name="primal_vision">尋找資源</string>
 	<string name="quicksave">快速存檔</string>
 	<string name="techs">科技</string>
 	<string name="knowledge_progress">知識進度</string>
@@ -709,7 +709,8 @@
 	<string name="tooltip_performer">點擊左鍵查看</string>
 	<string name="tooltip_welfare">幸福：(1)(n)量化你經營村莊的表現。(n)基於你的人民狀態、衣服與食物供給。(n)同時影響移民到達率與出生率。</string>
 	<string name="tooltip_prestige">聲望：(1)(n)量化你村莊的知名度。(n)基於你的人口數、建築數與科技。(n)同時影響移民與交易商的到達率。</string>
-	<string name="tooltip_resource_trade">(1)(n)價值：(2)(n)點擊交易一個(n)Shift+click 可交易多個</string>
+	<string name="tooltip_resource_trade">(b)(1)(/b)(n)價值：(2)(n)Click 可交易</string>
+	<string name="tooltip_resource_trade_multiple">Shift+click 可交易多個</string>
 	<string name="tooltip_no_alert">無警報：預設行為，你的人會正常的活動</string>
 	<string name="tooltip_alert">警報：每個有武器的人都將成為戰士，而其它人會躲進建築裡。</string>
 	<string name="tooltip_open_all_gates">打開所有大門</string>
@@ -859,7 +860,7 @@
 	<string name="game_action_placement_modifier_variant">切換造型</string>
 	<string name="game_action_previous_work_area">上個工作區</string>
 	<string name="game_action_next_work_area">下個工作區</string>
-	<string name="game_action_primal_vision">顯示資源</string>
+	<string name="game_action_primal_vision">尋找資源</string>
 
 	<!-- Alerts -->
 	<string name="warning_no_stables">動物的生活空間不足</string>

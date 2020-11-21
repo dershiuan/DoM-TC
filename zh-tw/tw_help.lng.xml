@@ -515,6 +515,11 @@
 製作 (b)亞麻衣(/b) 與 (b)羊毛衣(/b) 的地方。
 	</string>	
 
+	<string name="cheesemaker_short_description">製作起司的地方</string>
+	<string name="cheesemaker_help_description">
+村民可以將 (b)牛奶(/b) 製成 (b)起司(/b)。
+	</string>	
+
 	<string name="brewery_short_description">釀啤酒的地方</string>
 	<string name="brewery_help_description">
 村民可以使用 (b)穀物(/b) 與 (b)水(/b) 釀造 (b)啤酒(/b)。
@@ -1011,6 +1016,11 @@ Bifaces are classified as a knives rather than axes, based on the functions they
 使用專門的打水工具，到河川、湖泊或水井打水，會比每個人都到水邊喝水有 (b)效率(/b)。
 在冬季畜舍內的 (b)動物(/b) 需要提供 (b)飲水(/b) 否則它們會渴死。
 	</string>
+
+	<string name="cheese_short_description">一種由牛奶製成的食品。</string>			
+	<string name="cheese_help_description">
+在 (b)起司工坊(/b) 可以將 (b)牛奶(/b) 製成 (b)起司(/b)，它的保存期長且可以交易。
+	</string>	
 	
 	<string name="beer_short_description">解渴與使心情變好</string>		
 	<string name="beer_help_description">
